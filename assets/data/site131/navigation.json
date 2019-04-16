@@ -1,0 +1,260 @@
+{
+	"guests": {
+		"headerLinks": [
+			{
+				"title": "Login",
+				"url": null,
+				"externalUrl": "/registered/#/login",
+				"type": "Login",
+				"isInKioskMode": true
+			},
+			{
+				"title": "Logout",
+				"url": null,
+				"externalUrl": "/registered/#/manageList",
+				"type": "Logout",
+				"isInKioskMode": true
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"type": "Static",
+				"isInKioskMode": true
+			},
+			{
+				"title": "Return to Mosaic",
+				"url": null,
+				"externalUrl": "https://www.mosaicweightedblankets.com/",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Your Cart",
+				"url": "",
+				"type": "Cart",
+				"amount": null,
+				"image": "assets/images/icons/cart.png",
+				"isInKioskMode": true
+			}
+		],
+		"footerLinks": [
+			{
+				"title": "Find a Registry",
+				"url": "/",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Create a Registry",
+				"url": null,
+				"type": "Static",
+				"externalUrl": "/registered",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Manage my Registry",
+				"url": null,
+				"type": "Static",
+				"externalUrl": "/registered",
+				"isInKioskMode": false
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"type": "Static",
+				"isInKioskMode": false
+			}
+		],
+		"mobileAppsLinks": [],
+		"jifitiLegal": {
+			"url": "https://gifts.jifiti.com/",
+			"imageSrc": "/assets/images/powered-by-jifiti.svg",
+			"text": "All rights reserved."
+		},
+		"copyright": {
+			"text": "Powered by Jifiti Copyright © 2018"
+		},
+		"termsAndConditions": {
+			"url": "/pages/TermsAndConditions",
+			"text": "Terms & Conditions"
+		},
+		"giftRegistryService": {
+			"url": "https://gifts.jifiti.com/",
+			"text": "Gift Registry Software."
+		},
+		"mobileMenuLinks": [
+			{
+				"title": "Home",
+				"url": "/",
+				"icon": "assets/images/icons/home_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Find a Registry",
+				"url": "/",
+				"icon": "assets/images/icons/search_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Create a Registry",
+				"url": null,
+				"externalUrl": "/registered",
+				"icon": "assets/images/icons/create_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Manage a Registry",
+				"url": null,
+				"externalUrl": "/registered",
+				"icon": "assets/images/icons/manage_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"icon": "assets/images/icons/faq_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			}
+		]
+	},
+	"couples": {
+		"headerLinks": [
+			{
+				"title": "Login",
+				"url": null,
+				"externalUrl": "/registered/#/login",
+				"type": "Login",
+				"isInKioskMode": true
+			},
+			{
+				"title": "Logout",
+				"url": null,
+				"externalUrl": "/registered/#/manageList",
+				"type": "Logout",
+				"isInKioskMode": true
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"type": "Static",
+				"isInKioskMode": true
+			},
+			{
+				"title": "Return to Mosaic",
+				"url": null,
+				"externalUrl": "https://www.mosaicweightedblankets.com/",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Your Cart",
+				"url": "",
+				"type": "Cart",
+				"amount": null,
+				"image": "assets/images/icons/cart.png",
+				"isInKioskMode": true
+			}
+		],
+		"footerLinks": [
+			{
+				"title": "Find a Registry",
+				"url": "/",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Create a Registry",
+				"url": null,
+				"type": "Static",
+				"externalUrl": "/registered/#/eventpage",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Manage Your Registry",
+				"url": null,
+				"type": "Static",
+				"externalUrl": "/Registered",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Store Info",
+				"url": "/Registered/#/stores",
+				"type": "Static",
+				"isInKioskMode": true
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Chat With Us",
+				"url": null,
+				"type": "Chat",
+				"isInKioskMode": false
+			}
+		],
+		"mobileAppsLinks": [],
+		"jifitiLegal": {
+			"url": "//gifts.jifiti.com/",
+			"imageSrc": "/assets/images/powered-by-jifiti.svg",
+			"text": "All rights reserved."
+		},
+		"copyright": {
+			"text": "Powered by Jifiti Copyright © 2018"
+		},
+		"termsAndConditions": {
+			"url": "/pages/TermsAndConditions",
+			"text": "Terms & Conditions"
+		},
+		"giftRegistryService": {
+			"url": "//gifts.jifiti.com/",
+			"text": "Gift Registry Software."
+		},
+		"mobileMenuLinks": [
+			{
+				"title": "Home",
+				"url": "/",
+				"icon": "assets/images/icons/home_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Find a Registry",
+				"url": "/",
+				"icon": "assets/images/icons/search_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Create a Registry",
+				"url": null,
+				"externalUrl": "/registered",
+				"icon": "assets/images/icons/create_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "Manage a Registry",
+				"url": null,
+				"externalUrl": "/registered",
+				"icon": "assets/images/icons/manage_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			},
+			{
+				"title": "FAQ",
+				"url": "/pages/FAQ",
+				"icon": "assets/images/icons/faq_icon.png",
+				"type": "Static",
+				"isInKioskMode": false
+			}
+		]
+	}
+}

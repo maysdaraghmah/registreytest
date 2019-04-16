@@ -1,0 +1,30 @@
+{
+  "intro": "",
+
+  "sections": [
+    {
+      "imagePosition": "left",
+      "image": "benefits-page1.jpg",
+      "title": "A Simple and Easy Registry",
+      "list": null,
+      "bulk": "Online or in store, you have complete control over your Registry. In store, our consultants can guide you while using our scanner shopping system that allows you to instantly select anything that catches your eye. The gift registry program online is updated in real time. You can stay connected to your gift list and enjoy the ability to check on who has purchased what, in order to avoid receiving the same gift twice! Your guests can buy online at https://sprout.jifiti.com no matter where they are, 24/7, as well as in any one of our Sprout stores!",
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "right",
+      "image": "benefits-page2.jpg",
+      "title": "Handy and Essential Tools",
+      "list": null,
+      "bulk": "You will find essential tools for a successful event online or in stores! Invitation cards for your guests, a to-buy list to make sure nothing is forgotten, and even a calendar to help you plan for the big day: we provide all the guidance to ensure the success of your special day!",
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "left",
+      "image": "benefits-page3.jpg",
+      "title": "Free Delivery",
+      "list": null,
+      "bulk": "Once your registry is complete, we will deliver all your gifts absolutely free within a 90 km radius from the Sprout store that is closest to you.",
+      "paragraphs": null
+    }
+  ]
+}

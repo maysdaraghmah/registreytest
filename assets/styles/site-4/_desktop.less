@@ -1,0 +1,40 @@
+@import '_variables.less';
+@import '../_functions';
+
+@media (min-width: @screen-width-desktop) {
+    home {
+        registry-search {
+            .search-registry-section {
+                margin-top: 14%;
+            }
+        }
+    }
+    
+    search-results {
+        .search-registry-section.header-mode {
+            margin: 0 0 0 ~'calc((100% - 960px) / 2)';
+            padding: 46px 0;
+        }
+    }
+  
+    page-links {
+        .page-links-list {
+            padding: 0 8%;
+        }
+    }
+    navigation-links{
+        .nav-links{
+            .nav-link a{
+                font-size: 14px;
+                color: @color1;
+            }
+        }
+     }
+     site-header {
+        padding: 0 5%;
+        .logo {
+            width: 310px;
+        }
+     }
+    
+}

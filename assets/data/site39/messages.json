@@ -1,0 +1,26 @@
+{
+	"settingsFormErrors": {
+		"general": "Please fill all required fields",
+		"firstnameRequired": "Please enter your name",
+		"lastnameRequired": "Please enter your last name",
+		"phoneRequired": "Please enter your phone number",
+		"emailRequired": "Please enter your Email",
+		"emailValid": "Please enter valid email address",
+		"phoneValid": "Please enter valid phone number",
+		"coFirstnameRequired": "Please enter your name",
+		"coLastnameRequired": "Please enter your last name",
+		"coPhoneRequired": "Please enter your phone number",
+		"shippingAddress": "Please enter full shipping address: State, City, Street, House number and ZIP code.",
+		"zipCode": "Please enter a valid ZIP code.",
+		"zipCodeNotCorrect": "Please enter a correct ZIP code.",
+		"city": "Please enter a valid City.",
+		"State": "Please enter a valid State.",
+		"country": "lease enter a valid Country."
+	},
+	"toolTip": {
+		"helpImage": "/assets/images/listhelp.png",
+		"myListRegistryMessage": "Use this list ID when speaking to our customer service. Your guests can also use this ID to locate your registry on the website.",
+		"linkToMyListMessage": "This is your friendly link to the list, so your guests can easily remember and type it. Use it by pressing share in the app home screen",
+		"welcomeMessage": "Add a personal message to the top of your registry list that will appear to guests when they visit your registry for a special touch. Don’t worry, if you skip this, the default message will appear."
+	}
+}

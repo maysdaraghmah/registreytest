@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home_new_version_getmy_gifts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-276.000000, -31.000000)">
+        <g id="list" transform="translate(276.000000, 31.000000)">
+            <g stroke="#008947" stroke-width="1.5">
+                <g id="menu" transform="translate(11.000000, 1.000000)" stroke-linecap="square">
+                    <path d="M0.396551724,5.75 L17.8448276,5.75" id="Line"></path>
+                    <path d="M0.396551724,0.75 L22.6034483,0.75" id="Line"></path>
+                </g>
+                <g id="menu-copy" transform="translate(11.000000, 15.000000)" stroke-linecap="square">
+                    <path d="M0.396551724,5.75 L17.8448276,5.75" id="Line"></path>
+                    <path d="M0.396551724,0.75 L22.6034483,0.75" id="Line"></path>
+                </g>
+                <rect id="Rectangle-4" x="0.75" y="0.75" width="6.5" height="6.5" rx="1"></rect>
+                <rect id="Rectangle-4" x="0.75" y="14.75" width="6.5" height="6.5" rx="1"></rect>
+            </g>
+            <text id="LIST" font-family="Lato-Semibold, Lato" font-size="10" font-weight="500" fill="#008A48">
+                <tspan x="6" y="34">LIST</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

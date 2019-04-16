@@ -1,0 +1,33 @@
+{
+  "pageTitle": "WHY BOOK WITH LIBERTY TRAVEL?",
+  "header": "We’re Your Ultimate Honeymoon Planner",
+  "isBlockContent": false,
+  "content": "",
+  "contentParagraph": [
+    {
+      "title": "",
+      "content": "Congratulations! Planning a wedding is very exciting. So while you’re busy taking care of the caterer and the cake, leave the honeymoon planning to us."
+    },
+    {
+      "title": "",
+      "content": "Liberty Travel’s 700+ travel consultants in 100+ locations have collected the passport stamps you want, to give you the advice you need for an unforgettable honeymoon. Plus, we partner with some of the most romantic resorts and top cruise lines in the world to get you the exclusive benefits and special attention you both deserve."
+    },
+    {
+      "title": "",
+      "content": "Liberty Travel honeymooners are treated to:",
+      "list": [
+        "Free personalized vacation planning",
+        "Expert recommendations & insider knowledge",
+        "Customized itinerary based on your preferences",
+        "24/7 support throughout your travels"
+      ]
+    },  {
+      "title": "",
+      "content": "No matter where your first adventure as newlyweds takes you, Liberty Travel will make it a trip of a lifetime."
+    }
+  ],
+  "buttons": {
+    "isActive": true,
+    "text": "Get started"
+  }
+}

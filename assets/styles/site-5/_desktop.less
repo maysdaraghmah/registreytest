@@ -1,0 +1,41 @@
+
+@import '_variables.less';
+@import '../_functions';
+
+@media (min-width: @screen-width-desktop) {
+    home {
+        registry-search {
+            .registry-search-feature {
+                .align-items(flex-start);
+            }
+
+            .search-input-container {
+                padding: 20px 110px 80px;
+            }
+
+            .search-icon {
+                margin-right: 96px;
+            }
+
+            .reg-buttons-container {
+                padding: 45px 110px !important;
+
+                .btn {
+                    height: 50px;
+                     line-height: 50px;
+                }
+            }
+
+            .search-registry-section {
+                min-width: 634px;
+                margin: 2% auto;
+            }
+
+			.search-registry-title {
+				font-size: 40px;
+				padding: 44px 110px 0;
+			}
+        }
+    }
+
+}

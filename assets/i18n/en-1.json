@@ -1,0 +1,14 @@
+{
+    "Search for a registry": "Enter first or last name",
+    "Back To Gift Message": "Back To Greeting",
+    "Manage Registry": "Manage my Registry",
+    "RegisteredConfirmationTitle": "Great!",
+    "RegisteredConfirmationSubtitle": "Thank you for your purchase!",
+   
+
+    "ConfirmationContentPickUpInStore" : "You are all set! Only your gift recipients can pick up their gifts at the store. The store will receive a notification. They will go to the store to pick up the gift themselves.",
+    "ConfirmationContentContactMeForDeliveryOptions" : "You are all set! Only your gift recipients can pick up their gifts at the store. The store will receive a notification. They will go to the store to pick up the gift themselves.",
+
+
+    "RegisteredConfirmationBackToList": "Make another purchase"
+}

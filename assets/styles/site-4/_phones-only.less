@@ -1,0 +1,165 @@
+@import '_variables.less';
+@import '../_functions';
+
+@media (max-width: @screen-max-width-phone) {
+
+        navigation-links{
+            .nav-links {
+                .nav-link a{
+                    .nav-link-cart-amount{
+                        background: @iconColor;
+                    }
+                }
+            }
+        }
+
+        cart{
+            .cart-title-wrapper{
+                .flex-display();
+                //.flex-direction(row-reverse);
+                padding: 10px 6px;
+                .justify-content(space-between);
+                .cart-title{
+                    font-size: 18px;
+                }
+                .back-to-list{
+                    position: relative;
+                    white-space: nowrap;
+                }
+            }
+            .col-content{
+                &:nth-child(4){
+                    min-width: 30px;
+                }
+            }
+        }
+
+        sidebar {
+            .logo-wrapper {
+                background-image: url("@{clientImagesPath}/logo.png");
+            }
+        }
+        search-results {
+            .result-list {
+                .results-list-item {
+                    .event-link {
+                        padding-left: 0;
+                    }
+                }
+            }
+            .results-cell.event-Honeymoon-date{
+                display: none;
+            }
+            registry-search {
+                .search-registry-title{
+                    display: none;
+                }
+                .search-icon{
+                    right: 0;
+                }
+                .search-registry-container {
+                    margin-bottom: 40px;
+                    width: 90%;
+                }
+                .search-input{
+                    border-width: 1px;
+                }
+            }
+        }
+        home{
+          feature.home-feature{
+              background-image: url("@{clientImagesPath}/mobile/homepage_bg.jpg");
+          }
+
+          registry-search{
+            .search-registry-section{
+              margin: 30px auto 20px auto;
+              width: 90%;
+              .search-registry-title{
+                margin-bottom: 16%;
+              }
+            }
+            .reg-buttons-container{
+                margin-top: 25%;
+                .flex-wrap(wrap);
+                .btn{
+                  width: 100%;
+                  &.btn-secondary{
+                    background: @mobileSecondaryButtonBackgroundColor;
+                    border: @mobileSecondaryButtonBorder;
+                    color: @mobileSecondaryButtonColor;
+
+                  }
+                }
+              }
+          }
+        }
+
+        page-links {
+            .page-box{
+                padding-top:0;
+               .box-shadow(1px 3px 12px -2px #222);
+               .page-name{
+                   bottom: 0;
+                   top: auto;
+                   background: white;
+                   color: @color1;
+               }
+            }
+            .page-link-list-item{
+                width: 100%;
+                padding: 0 6px;
+            }
+        }
+        .registry-item-popup {
+            .item-details-wrapper {
+                .item-image-wrapper {
+                    width: 50%;
+                    height: 50px;
+                }
+            }
+        }
+        registry-item{
+            min-height: 200px;
+            width: 96%;
+            margin: 15px auto;
+            display: block;
+            feature.registry-item-feature {
+                .registry-item-wrapper {
+                    .box-shadow(none);
+                    border: 1px solid #ccc;
+                    .registry-item-details-wrapper{
+                        position: relative;
+                        .item-price{
+                            position: absolute;
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+                        .item-about{
+                            .item-title{
+                                font-size: 15px;
+                                line-height: 24px;
+                                margin-top:0;
+                            }
+                            .item-catalog-type{
+                                white-space: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        registry-catalog feature.registry-catalog{
+            .registry-options-wrapper {
+                .registry-filters-list{
+                    display: none;
+                }
+            }
+            .registry-message {
+                font-size: 14px;
+            }
+        }
+
+
+
+}

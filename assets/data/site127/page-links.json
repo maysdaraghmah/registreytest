@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Registry Benefits",
+    "url": "pages/registryBenefits",
+    "image": "assets/images/127/box_benefits.jpg",
+    "exploreNowButton": true
+  },
+  {
+    "name": "Checklist",
+    "url": "pages/checklist",
+    "image": "assets/images/127/box_checklist.jpg",
+    "exploreNowButton": true
+  },
+  {
+    "name": "FAQ",
+    "url": "pages/FAQ",
+    "image": "assets/images/127/box_faq.jpg",
+    "exploreNowButton": true
+  }
+
+]

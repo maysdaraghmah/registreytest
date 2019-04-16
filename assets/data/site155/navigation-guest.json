@@ -1,0 +1,124 @@
+{
+	"logo": {
+		"desktop": "assets/images/155/logo.svg",
+		"mobile": "assets/images/155/logo.svg"
+	},
+	"topHeaderLinks": [
+		{
+			"title": "Gift Cards",
+			"url": null,
+			"externalUrl": "https://www.overstock.com/gift-cards#/shop-gift-cards",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Club O",
+			"url": null,
+			"externalUrl": "https://www.overstock.com/club-o-rewards-program",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Store Credit Card",
+			"url": null,
+			"externalUrl": "https://www.overstock.com/storecard",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Return to Overstock",
+			"url": null,
+			"externalUrl": "https://www.overstock.com/",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Sign In",
+			"externalUrl": "https://www.overstock.com/login?redirect_url=https://registryqa.overstock.com/registered",
+			"type": "login",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Logout",
+			"externalUrl": "https://www.overstock.com/logout",
+			"type": "logout",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Your Cart",
+			"url": null,
+			"type": "cart",
+			"amount": null,
+			"icon": "assets/images/155/icons/cart.svg",
+			"isInKioskMode": true,
+			"hide":false
+		}
+	],
+	"jifitiLegal": {
+		"externalUrl": "https://www.jifiti.com",
+		"imageSrc": "/assets/images/jifiti_logo_grey.svg"
+	},
+	"copyright": {
+		"url": null,
+		"title": "Copyright © 2019"
+	},
+	"termsAndConditions": {
+		"url": "/pages/TermsAndConditions",
+		"title": "Terms & Conditions"
+	},
+	"chatWithUs": {
+		"url": null,
+		"title": "Chat With Us"
+	},
+	"mobileMenuLinks": [
+		{
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/155/icons/home_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/155/icons/search_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Create a Registry",
+			"url": "/registered",
+			"icon": "assets/images/155/icons/create_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Manage a Registry",
+			"url": "/registered",
+			"icon": "assets/images/155/icons/manage_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Gift Cards",
+			"externalUrl": "https://www.overstock.com/gift-cards#/shop-gift-cards",
+			"icon": "assets/images/155/icons/giftCards_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Club O",
+			"externalUrl": "https://www.overstock.com/club-o-rewards-program",
+			"icon": "assets/images/155/icons/clubO_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Store Credit Card",
+			"externalUrl": "https://www.overstock.com/storecard",
+			"icon": "assets/images/155/icons/store_credit_card_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		}
+	]
+}

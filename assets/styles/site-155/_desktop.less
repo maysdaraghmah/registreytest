@@ -1,0 +1,214 @@
+@import '_variables.less';
+@import '../_functions';
+@media (min-width: @screen-width-desktop) {
+    home {
+        .home-feature {
+            .background-image-holder{
+                background: url("@{clientImagesPath}/hero_image.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            registry-search {
+                height: 481px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .registry-search-feature {
+                    height: auto;
+                    width: 100%;
+                    max-width: 882px;
+                    .search-registry-section {
+                        margin: 100px auto;
+                        width: 100%;
+                        max-width: 100%;
+                        .search-input-container {
+                            max-width: 663px;
+                        }
+                        .search-registry-title {
+                            margin-top: 36px;
+                            margin-bottom: 24px;
+                        }
+                    }
+                    .reg-buttons-container {
+                        margin-bottom: 36px;
+                    }
+                    .search-registry-title {
+                        line-height: 43px;
+                        font-size: 36px;
+                    }
+                    .search-input-container {
+                        margin: 24px auto 32px auto;
+                    }
+                }
+            }
+            registry-carousel-links {
+                feature.registry-carousel-links {
+                    padding: 0px;
+                    .registry-carousel-wrapper {
+                        margin-top: 0;
+                        padding: 24px 10px 10px 10px;
+                        .registry-carousel-nav {
+                            font-size: 24px;
+                        }
+                    }
+                    registry-carousel-item {
+                        .inspiration {
+                            .row {
+                                margin-right: -15px;
+                                margin-left: -15px;
+                            }
+                            .inspiration-text {
+                                margin-bottom: 60px;
+                                &.long-title{
+                                    margin-bottom: 20px;
+                                }
+                                .header {
+                                    font-size: 32px;
+                                    margin-bottom: 40px;
+                                }
+                                .sub-header {
+                                    font-size: 24px;
+                                }
+                            }
+                            .middle {
+                                padding: 0 24px;
+                            }
+                            .picture {
+                                .up-right {
+                                    margin-bottom: 20px;
+                                }
+                                &.right,
+                                &.left {
+                                    img {
+                                        max-width: 100%;
+                                    }
+                                }
+                                &.left {
+                                    .down-left {
+                                        padding-top: 38px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    benefits-item {
+                        .benefit-icon {
+                            max-width: 60px;
+                        }
+                        .benefit-picture {
+                            padding-left: 17px;
+                        }
+                        .benefit-col {
+                            margin-top: 0;
+                        }
+                        .text {
+                            font-size: 14px;
+                        }
+                        .tips-text {
+                            &.col {
+                                align-items: flex-start;
+                            }
+                        }
+                        .tips-text-chunks {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        registry-benefits {
+            .static-page-content {
+                .static-page-section {
+                    .section-texts-container {
+                        padding: 0;
+                    }
+                    .section-image-container {
+                        .static-section-image {
+                            width: 64px;
+                            height: 64px;
+                            max-height: 64px;
+                            max-width: 64px;
+                        }
+                    }
+                }
+                a {
+                    &.btn {
+                        &.btn-primary {
+                            &.btn-registry-benefit {
+                                margin-left: 136px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .pseudo-footer {
+            background-image: url("@{clientImagesPath}/footer.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 247px;
+            background-size: cover;
+        }
+    }
+    .top-brands {
+        margin: 52px 0 73px 0;
+    }
+    .top-brands-images {
+        flex-direction: row;
+        img {
+            margin-bottom: 0;
+        }
+    }
+    .exlusive-brands {
+        .brands {
+            .brand {
+                .title {
+                    height: 83px;
+                    align-items: center;
+                    >img {
+                        max-height: 100%;
+                    }
+                }
+                &:nth-child(2) {
+                    margin: 0 25px;
+                }
+            }
+        }
+    }
+    cart {
+        .buttons-wrapper {
+            .button-wrapper {
+                width: 366px;
+                height: 44px;
+            }
+        }
+        .more-cart-data-for-guest,
+        .more-cart-data-for-registrant {
+            .tax-info,
+            .sub-total,
+            .total {
+                width: 366px;
+            }
+        }
+    }
+    search-results {
+        .search-results-section {
+            .result-list {
+                .results-cell {
+                    padding-left: 6%;
+                }
+                .header-cell {
+                    padding-left: 6%;
+                }
+            }
+        }
+    }
+    .route-wrapper{
+        &:not(.for-homepage) {
+            .page-content {
+                min-height: ~'calc(100% - 93px)';
+            }
+        }
+    }
+}

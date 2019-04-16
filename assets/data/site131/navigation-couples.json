@@ -1,0 +1,181 @@
+{
+	"logo": {
+		"desktop": "/assets/images/131/logo.png",
+		"mobile": "/assets/images/131/mobile/logo.png"
+	},
+	"topHeaderLinks": [
+		{
+			"title": "About",
+			"url": "/pages/registryBenefits",
+			"type": "static"
+		},
+		{
+			"title": "Store Info",
+			"url": "/stores",
+			"type": "static"
+		},
+		{
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "static"
+		},
+		{
+			"title": "Return to Mosaic",
+			"url": "//www.mosaicweightedblankets.com",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Logout",
+			"url": "/logout",
+			"type": "logout"
+		},
+		{
+			"title": "Your Cart",
+			"url": null,
+			"type": "cart"
+		}
+	],
+	"siteHeaderLinks": [
+		{
+			"title": "Add Gifts",
+			"url": "/categories"
+		},
+		{
+			"title": "Manage List",
+			"url": "/manageList"
+		},
+		{
+			"title": "Edit Settings",
+			"url": "/settings"
+		},
+		{
+			"title": "Share List",
+			"url": null
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"type": "guest-list"
+		},
+		{
+			"title": "Change List",
+			"url": null,
+			"submenu": []
+		},
+		{
+			"title": "Get My Gifts",
+			"url": null,
+			"submenu": [
+				{
+					"title": "Use Voucher",
+					"url": "/vouchers"
+				},
+				{
+					"title": "Ship to Me",
+					"url": "/shipToMe"
+				}
+			]
+		}
+	],
+	"mobileMenuLinks": [
+		{
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png"
+		},
+		{
+			"title": "Add Gifts",
+			"url": null,
+			"icon": "assets/images/icons/search_icon.png",
+			"display": false,
+			"submenu": [
+				{
+					"title": "Scan Barcode",
+					"url": "/scanBarcode",
+					"icon": ""
+				},
+				{
+					"title": "Enter Item Number",
+					"url": "/enterItemNumber",
+					"icon": ""
+				},
+				{
+					"title": "Broese Categories",
+					"url": "/categories",
+					"icon": ""
+				},
+				{
+					"title": "Snap Item Photo",
+					"url": "/snapItem",
+					"icon": ""
+				}
+			]
+		},
+		{
+			"title": "Manage My Lists",
+			"url": null,
+			"icon": "assets/images/icons/manage_icon.png"
+		},
+		{
+			"title": "Settings",
+			"url": "/settings",
+			"icon": "assets/images/icons/create_icon.png"
+		},
+		{
+			"title": "Gifts",
+			"url": null,
+			"icon": "assets/images/icons/manage_icon.png",
+			"display": false,
+			"submenu": [
+				{
+					"title": "Use Voucher",
+					"url": "/vouchers"
+				},
+				{
+					"title": "Ship to Me",
+					"url": "/shipToMe"
+				}
+			]
+		},
+		{
+			"title": "Help",
+			"url": null,
+			"icon": "assets/images/icons/faq_icon.png",
+			"submenu": [
+				{
+					"title": "Chat With Us",
+					"url": "",
+					"icon": "/mobile/menu/chatWithUsIcon.png",
+					"type": "chat"
+				},
+				{
+					"title": "FAQ",
+					"url": "/pages/FAQ",
+					"icon": "/mobile/menu/faqIcon.png"
+				},
+				{
+					"title": "Call a Registry Expert",
+					"url": "",
+					"icon": "/mobile/menu/callRegistryExpertIcon.png",
+					"type": "phone"
+				}
+			]
+		},
+		{
+			"title": "Store Info",
+			"url": "/stores",
+			"icon": "/mobile/menu/storeInfoIcon.png"
+		},
+		{
+			"title": "Chat",
+			"url": "",
+			"icon": "/mobile/menu/chat.png",
+			"type": "chat"
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"icon": "/mobile/menu/View_as_guestIcon.png"
+		}
+	]
+}

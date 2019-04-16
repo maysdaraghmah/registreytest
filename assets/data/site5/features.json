@@ -1,0 +1,95 @@
+{
+  "allowCartToHoldMultipleRegitries" : false,
+  "allowFacebookLoginOnGreeting": true,
+
+  "btnRegistrantCheckoutEnabledOnCart": 0,
+  "btnRegistrantRequestShippingEnabledOnCart": 0,
+
+
+  "guestCartButtons": [
+    {
+      "type": 1
+    },
+    {
+      "type": 2
+    }
+  ],
+
+  "registeredCartButtons": [
+
+  ],
+	"registrantCoRegistrantMobileCombined": false,
+
+  "chatEnabled" : false,
+  "checkoutTaxTooltip": false,
+  "chipInState": 0,
+	"clientSiteUrl": "",
+  "defaultPurchasedStatusFilterType": 0,
+
+  "displayBarcode" : false,
+  "displayCheckboxOnPrintedCatalog": false,
+  "displayItemImageOnPrintedCatalog": false,
+  "displyaWantedAndReceivedCounter" : true,
+  "displayRegistryItemsAsOneList" : false,
+
+  "estimatedProvisionForSalesTax": false,
+
+  "eventFieldWhichEventImagesPathBasedOn" : 1,
+  "firstSortEventsSearchResultsByField" : "Date",
+
+
+  "giftItState": 1,
+  "guestTopPicksState": 0,
+  "hasStoredValue": false,
+
+  "imagePrefixURLForCatalgPage" : "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+
+
+  "outOfStock": true,
+
+  "jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": false,
+  "jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": false,
+
+  "kioskModeState": 0,
+
+  "passwordPattern": "^.{1,}$",
+  "passwordPatternErrorMessage": "Please choose a password.",
+
+  "printRegistryItemsListOption" : false,
+  "purchasedInStoreState": 0,
+  "searchResultFields": [1,2,3,4],
+  "shipToMeDisclaimerState": 1,
+  "sortRegistryState" : 1,
+
+  "useExternalPurchaseWhenCartDoesntContainChippedInItem": false,
+
+
+  "cartGrid": {
+      "bodyColumns":
+        {
+          "itemImage": true,
+          "itemTitle": true,
+          "price": true,
+          "quantity": true,
+          "total": true,
+          "remove": true
+        },
+
+      "headerColumns": ["Item", "","Price","Quantity", "Total", ""],
+      "isHeader" : "true"
+  },
+  "hasTax" : true,
+  "twoStepsEventRegistry": false,
+  "registryCarouseLinks": false,
+  "eventOwnerPhoneRequired": true,
+  "showBabyDueDate": true,
+  "showNumberOfGuests": false,
+  "babyListID": 1,
+  "displayUsernameOnLogoutLink": true,
+  "barcodeDigitsNumber": 8,
+  "categoriesLinksNavbarWithDropdown": false,
+  "addGiftsMobileSlider": 0
+}
+
+
+

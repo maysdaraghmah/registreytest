@@ -1,0 +1,98 @@
+{
+  "allowCartToHoldMultipleRegitries" : false,
+  "allowFacebookLoginOnGreeting": true,
+
+  "btnRegistrantCheckoutEnabledOnCart": 0,
+  "btnRegistrantRequestShippingEnabledOnCart": 0,
+
+
+  "guestCartButtons": [
+    {
+      "type": 1
+    },
+    {
+      "type": 2
+    }
+  ],
+
+  "registeredCartButtons": [
+
+  ],
+	"registrantCoRegistrantMobileCombined": false,
+
+  "checkoutTaxTooltip": false,
+  "chipInState": 0,
+	"clientSiteUrl": "",
+  "defaultPurchasedStatusFilterType": 0,
+
+  "displayBarcode" : false,
+  "displayCheckboxOnPrintedCatalog": true,
+  "displayEventTypeIconInSearchResultsList": true,
+  "displayItemImageOnPrintedCatalog": false,
+  "displyaWantedAndReceivedCounter" : true,
+  "displayRegistryItemsAsOneList" : false,
+
+  "chatType" : "olark",
+  "chatLicence" : "8568463",
+
+  "eventFieldWhichEventImagesPathBasedOn" : 1,
+  "externalLoginEnabled" : false,
+  "externalLoginUrl" : "",
+
+  "firstSortEventsSearchResultsByField" : "Date",
+
+  "estimatedProvisionForSalesTax": false,
+
+  "giftItState": 1,
+  "guestTopPicksState": 1,
+  "hasStoredValue": false,
+  "outOfStock": false,
+
+  "imagePrefixURLForCatalgPage" : "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+
+  "jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": false,
+  "jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": false,
+
+  "kioskModeState": 0,
+
+  "passwordPattern": "^.{1,}$",
+  "passwordPatternErrorMessage": "Please choose a password.",
+
+  "printRegistryItemsListOption" : true,
+  "purchasedInStoreState": 0,
+  "searchResultFields": [1,2,3,4],
+  "shipToMeDisclaimerState": 1,
+  "sortRegistryState" : 1,
+
+  "useExternalPurchaseWhenCartDoesntContainChippedInItem": false,
+
+
+  "cartGrid": {
+      "bodyColumns":
+        {
+          "itemImage": true,
+          "itemTitle": true,
+          "price": true,
+          "quantity": true,
+          "total": true,
+          "remove": true
+        },
+
+      "headerColumns": ["Item", "","Price","Quantity", "Total", ""],
+      "isHeader" : "true"
+  },
+  "hasTax" : true,
+  "twoStepsEventRegistry": false,
+  "registryCarouseLinks": false,
+  "eventOwnerPhoneRequired": true,
+  "showBabyDueDate": false,
+  "showNumberOfGuests": false,
+  "babyListID": null,
+  "displayUsernameOnLogoutLink": true,
+  "barcodeDigitsNumber": 8,
+  "categoriesLinksNavbarWithDropdown": false,
+  "addGiftsMobileSlider": 1
+}
+
+
+

@@ -1,0 +1,79 @@
+{
+	"intro": "",
+	"sections": [
+		{
+			"imagePosition": null,
+			"image": null,
+			"title": "Why Register at Overstock?",
+			"list": null,
+			"bulk": null,
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "icons/border_gift_icon.svg",
+			"title": "The Best Assortment",
+			"list": null,
+			"bulk": "From furniture to decor, cookware to linens, and everything in between, our large assortment has everything you need to turn your home into your dream home, no matter your style.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "icons/event-confirm.svg",
+			"title": "A Registry for Every Occasion",
+			"list": null,
+			"bulk": "Those big events in your life deserve congratulations! And they also deserve a great registry experience. For your wedding, baby, anniversary, college dorm, first apartment, or any other exciting life event, we’ll help you register.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "icons/round-dollar.svg",
+			"title": "Where Quality Cost Less",
+			"list": null,
+			"bulk": "With excellent prices on our vast selection of stylish and high-quality products, Overstock helps your gift givers’ money go further — and makes it easier for you to receive everything on your registry.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "icons/handshake.svg",
+			"title": "Rewarding Loyal Customers",
+			"list": null,
+			"bulk": "Make your gift givers happy by letting them earn rewards for giving. With a Club O Rewards membership, gift givers receive 5% back in rewards on every purchase they make, even when it’s a gift from your registry.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "icons/quite-happy.svg",
+			"title": "All About You",
+			"list": null,
+			"bulk": "Overstock’s gift registry makes things simple and easy for you. It’s easy to register, easy to find the perfect products to suit your unique style, and easy to make returns. The Overstock Gift Registry is all about you.",
+			"paragraphs": null
+		}
+	],
+	"button": {
+		"link": "/registered/event",
+		"text": "Create a Registry"
+	},
+	"benefitsRow": [
+		{
+			"icon": "assets/images/155/icons/love_card.svg",
+			"header": "Gift Tracker",
+			"text": "The Gift Tracker helps you stay organized about who gave what gifts and who you've already thanked."
+		},
+		{
+			"icon": "assets/images/155/icons/multiple.svg",
+			"header": "Group Gifting",
+			"text": "Multiple guests can easily chip in toward larger gifts, giving you more opportunity to register for things like furniture and appliances."
+		},
+		{
+			"icon": "assets/images/155/icons/border_gift_icon.svg",
+			"header": "Widest Selection",
+			"text": "With over a million items to choose from, our assortment has everything you need for your dream home, no matter your style."
+		},
+		{
+			"icon": "assets/images/155/icons/delivery.svg",
+			"header": "Free Shipping Over $45",
+			"text": "Big or small, any gift purchase of $45 or more ships for free."
+		}
+	]
+}

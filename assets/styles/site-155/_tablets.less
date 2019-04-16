@@ -1,0 +1,300 @@
+@import '_variables.less';
+@import '../_functions';
+@media (min-width: @screen-min-width-tablets) {
+    site-header {
+        .site-header-content {
+            max-width: 98%;
+        }
+        .logo{
+            max-width: 95px;
+        }
+    }
+    home {
+        .home-feature {
+            .background-image-holder{
+                background: url("@{clientImagesPath}/tablet_hero_image.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            registry-search {
+                .registry-search-feature {
+                    height: 257px;
+                    .search-input-container {
+                        max-width: 381px;
+                    }
+                    .search-registry-section {
+                        margin: 0 auto;
+                        width: 65%;
+                        .search-registry-title {
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .reg-buttons-container {
+                        margin-bottom: 0;
+                        display: inline-flex;
+                    }
+                    .search-registry-title {
+                        line-height: normal;
+                        font-size: 24px;
+                    }
+                    .search-input-container {
+                        margin: 16px auto 32px auto;
+                    }
+                }
+                .results-cell {
+                    padding-left: 2%;
+                }
+                .header-cell {
+                    padding-left: 2%;
+                    font-size: 20px;
+                }
+            }
+            registry-carousel-links {
+                feature.registry-carousel-links {
+                    .registry-carousel-wrapper {
+                        .mobile-only {
+                            display: none;
+                        }
+                        margin-bottom: 0px;
+                        padding: 10px;
+                        margin-top: 2%;
+                        .registry-carousel-nav {
+                            font-size: 18px;
+                        }
+                    }
+                    .registry-dropdown {
+                        display: none;
+                    }
+                    registry-carousel-item {
+                        .inspiration {
+                            .row {
+                                margin-right: 0px;
+                                margin-left: 0px;
+                            }
+                            .inspiration-text {
+                                margin-bottom: 20px;
+                                max-width: 85%;
+                                .header {
+                                    font-size: 22px;
+                                    margin-bottom: 20px;
+                                }
+                                .sub-header {
+                                    font-size: 14px;
+                                }
+                            }
+                            .middle {
+                                padding: 0 13px;
+                            }
+                            .picture {
+                                .up-right {
+                                    margin-bottom: 13px;
+                                }
+                                &.right,
+                                &.left {
+                                    img {
+                                        max-width: 85%;
+                                    }
+                                }
+                            }
+                            .down-left {
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                                padding-top: 0;
+                            }
+                        }
+                    }
+                    benefits-item {
+                        .benefits-row {
+                            padding: 0;
+                            margin-bottom: 60px;
+                        }
+                        .benefit-icon {
+                            max-width: 60px;
+                        }
+                        .benefit-col {
+                            margin-bottom: 0;
+                            justify-content: inherit;
+                            margin-top: 40px;
+                        }
+                        .text {
+                            max-width: 70%;
+                        }
+                        .tips-text {
+                            &.col {
+                                align-items: center;
+                            }
+                        }
+                        .tips-text-chunks {
+                            max-width: 80%;
+                        }
+                        .benefit-picture {
+                            max-height: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    registry-benefits {
+        .static-page-content {
+            .static-page-section {
+                .section-texts-container {
+                    padding: 0 15px;
+                }
+            }
+            a {
+                &.btn {
+                    &.btn-primary {
+                        &.btn-registry-benefit {
+                            margin-left: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pseudo-footer {
+        background-image: url("@{clientImagesPath}/footer_tablet.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 132px;
+        background-size: cover;
+    }
+    .top-brands-images {
+        flex-direction: column;
+        img {
+            margin-bottom: 30px;
+        }
+    }
+    .registry-carousel-nav {
+        display: flex;
+    }
+    .static-page-feature {
+        .static-page-content {
+            margin: 0 auto;
+        }
+    }
+    .exlusive-brands {
+        .brands {
+            flex-direction: row;
+            .brand {
+                margin-bottom: 0;
+                .title {
+                    height: 45px;
+                    align-items: center;
+                    >img {
+                        max-height: 37px;
+                    }
+                }
+                &:nth-child(2) {
+                    margin: 0px 8px;
+                }
+            }
+        }
+    }
+    .share-list-wrapper {
+        width: 563px;
+        .share-title-block {
+            background-color: @shareListPopupTitleColor;
+            margin-top: 0;
+            .close-icon {
+                top: auto;
+            }
+        }
+    }
+    cart {
+        .cart-title-wrapper {
+            margin-top: 83px;
+            margin-bottom: 40px;
+        }
+    }
+    registry-item .registry-item-feature .registry-item-wrapper .registry-item-actions-wrapper .btn.btn-purchased-in-store {
+        width: 100%;
+    }
+    registry-item {
+        margin-right: 0;
+        .registry-item-feature .registry-item-wrapper .registry-item-box-wrapper {
+            max-width: 285px;
+            width: 100%;
+        }
+    }
+    checkout {
+        .checkout-header {
+            .checkout-title {
+                font-size: 32px;
+            }
+            .checkout-back-link {
+                font-size: 18px;
+                padding-top: 5px;
+            }
+        }
+        .cc-cvv-field {
+            width: 30%;
+        }
+        .client-zip {
+            width: 34%;
+        }
+        .checkout-grand-total {
+            span {
+                &:first-child,
+                &:last-child {
+                    font-size: 24px;
+                    color: @color1;
+                }
+            }
+        }
+        .nav-tabs {
+            .nav-link {
+                img {
+                    margin: 15px 90px 0 25px;
+                    width: 66px;
+                }
+                &#creditCardTab-link {
+                    img {
+                        padding-bottom: 3px;
+                    }
+                }
+            }
+        }
+        .checkout-section {
+            .checkout-summary-container {
+                width: 100%;
+            }
+            .pay-now-btn,
+            .checkout-summary-block {
+                width: 366px;
+            }
+            .payment-container {
+                justify-content: unset;
+                .payment-buttons-wrapper {
+                    margin-left: auto;
+                    width: 366px;
+                }
+            }
+        }
+    }
+    cart {
+        .cart-title-wrapper {
+            margin-top: 83px;
+            margin-bottom: 40px;
+        }
+    }
+    .route-wrapper{
+        &:not(.for-homepage) {
+            .page-content {
+                min-height: ~'calc(100% - 95px)';
+            }
+        }
+    }
+}
+.tablet {
+    .route-wrapper{
+        &:not(.for-homepage) {
+            .page-content {
+                min-height: ~'calc(100% - 95px)';
+            }
+        }
+    }
+}

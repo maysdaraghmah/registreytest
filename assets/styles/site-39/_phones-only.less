@@ -1,0 +1,137 @@
+@import '_variables.less';
+
+@media (max-width: @screen-max-width-phone) {
+  modal-container.modal .modal-dialog.item-added-approve .modal-content .modal-body .approve-message:before{
+    background: @color3;
+  }
+
+  sidebar feature.sidebar-feature .sidebar-wrapper .logo-wrapper{
+    background-image: url("@{clientImagesPath}/logo.png");
+  }
+
+  home {
+    feature.home-feature{
+      background-image: url("@{clientImagesPath}/mobile/homepage_bg.jpg");
+    }
+
+    registry-search {
+      .registry-search-feature {
+        .search-registry-section {
+          width: 98%;
+          padding-bottom: 155px;
+          margin: 20px auto;
+
+          .search-wrapper{
+            margin: 0 auto;
+            position: relative;
+            background: white;
+
+            .reg-buttons-container{
+              position: absolute;
+              bottom: -165px;
+              width: 100%;
+              left: 0;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  page-links  .page-links-list{
+      .page-link-list-item{
+          width: 50%;
+          padding: 0 6px;
+          .page-box{
+              padding: 4px;
+              .page-name{
+                  font-size: 12px;
+                  bottom: 4px;
+                  width: ~'calc(100% - 8px)';
+              }
+          }
+      }
+  }
+  .page-box {
+      padding: 4px;
+      .page-name{
+          bottom: 4px;
+          width: ~'calc(100% - 8px)';
+          font-size:12px;
+      }
+  }
+
+  navigation-links{
+      .nav-links {
+          .nav-link a{
+              .nav-link-cart-amount{
+                  background: @iconColor;
+              }
+          }
+      }
+  }
+
+  site-footer {
+    .top {
+      margin: auto;
+    }
+
+    .bottom {
+      height: auto;
+
+      ul {
+        height: auto;
+        display: block !important;
+        text-align: center;
+        padding: 10px 0 !important;
+
+        li{
+          width: 100%;
+          float: left;
+          font-size: 10px;
+
+          &:first-child{
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  registry-benefits {
+    .static-page-section {
+      .static-section-title {
+        font-weight: 400;
+      }
+    }
+  }
+
+  timeline {
+    .timeline-title {
+      line-height: 22px;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+  }
+
+  gift-it {
+    .modal-btn {
+      width: 100%;
+    }
+  }
+
+
+  search-results {
+    .search-registry-section.header-mode {
+      .search-registry-container {
+        margin: 0;
+      }
+    }
+
+    .search-results-counter {
+      font-size: 14px;
+    }
+  }
+}
+

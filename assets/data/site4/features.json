@@ -1,0 +1,88 @@
+{
+  "allowCartToHoldMultipleRegitries" : false,
+  "allowFacebookLoginOnGreeting": true,
+
+  "btnRegistrantCheckoutEnabledOnCart": 0,
+  "btnRegistrantRequestShippingEnabledOnCart": 0,
+
+
+
+  "guestCartButtons": [
+    {
+      "type": 2
+    }
+  ],
+
+  "registeredCartButtons": [
+
+  ],
+
+	"registrantCoRegistrantMobileCombined": false,
+
+  "chatEnabled" : true,
+  "checkoutTaxTooltip": false,
+  "chipInState": 1,
+	"clientSiteUrl": "",
+  "defaultPurchasedStatusFilterType": 0,
+
+  "displayBarcode" : false,
+  "displayCheckboxOnPrintedCatalog": false,
+  "displayItemImageOnPrintedCatalog": false,
+  "displayEventTypeIconInSearchResultsList": true,
+  "displyaWantedAndReceivedCounter" : false,
+  "displayRegistryItemsAsOneList" : true,
+
+  "estimatedProvisionForSalesTax": false,
+
+  "eventFieldWhichEventImagesPathBasedOn" : 2,
+  "firstSortEventsSearchResultsByField" : "HoneymoonDate",
+
+  "giftItState": 0,
+  "guestTopPicksState": 0,
+  "hasStoredValue": true,
+  "outOfStock": false,
+
+  "imagePrefixURLForCatalgPage" : "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_547,h_350,c_fit/",
+
+  "jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": false,
+  "jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": false,
+
+  "kioskModeState": 0,
+
+  "passwordPattern": "^.{1,}$",
+  "passwordPatternErrorMessage": "Please choose a password.",
+
+  "purchasedInStoreState": 0,
+  "searchResultFields": [2,3,6,4],
+  "shipToMeDisclaimerState": 0,
+  "sortRegistryState" : 0,
+
+  "useExternalPurchaseWhenCartDoesntContainChippedInItem": false,
+
+
+  "cartGrid": {
+    "bodyColumns" :
+    {
+        "itemImage": true,
+        "itemTitle": true,
+        "price": false,
+        "quantity": true,
+        "total": true,
+        "remove": true
+    },
+
+    "headerColumns": [],
+    "isHeader" : false,
+    "hasTax" : false
+	},
+  "twoStepsEventRegistry": false,
+  "registryCarouseLinks": false,
+  "eventOwnerPhoneRequired": true,
+  "showBabyDueDate": false,
+  "showNumberOfGuests": false,
+  "babyListID": null,
+  "displayUsernameOnLogoutLink": true,
+  "barcodeDigitsNumber": 8,
+  "categoriesLinksNavbarWithDropdown": false,
+  "addGiftsMobileSlider": 1
+}

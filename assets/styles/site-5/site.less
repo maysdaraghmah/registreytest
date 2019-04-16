@@ -1,0 +1,477 @@
+@import '_variables';
+@import '../_functions';
+@import '../../fonts/Montserrat.less';
+
+body {
+    font-family: @fontFamilyText;
+}
+
+svg-icon {
+    text {
+        fill: @iconColor;
+    }
+    g#Line {
+        stroke: @iconColor;
+    }
+}
+
+site-header {
+    .site-header-content {
+        .logo {
+            background-image: url("@{clientImagesPath}/logo.png");
+        }
+    }
+}
+
+
+
+
+search-results {
+    registry-search .registry-search-feature {
+        background-image: url("@{clientImagesPath}/search_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        .search-registry-section {
+            padding: 4px;
+            .search-registry-container {
+                outline: 1px solid white;
+                border: 5px solid transparent;
+                .search-wrapper {
+                    padding: 15px 30px;
+                    background: white;
+                }
+                .search-input-container {
+                    margin-top: 9px;
+                }
+            }
+            .search-registry-title {
+                margin: 0;
+                padding: 0;
+                color: #000;
+                font-size: 24px;
+                line-height: 24px;
+                font-family: @fontFamilyText2;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .search-results-counter {
+        font-weight: 400;
+        padding: 10px 0;
+        margin: 0.6em auto;
+        width: 95%;
+        font-size: 20px;
+        color: #696969;
+        font-family: @fontFamilyText;
+    }
+    .search-results-section {
+        padding-top: 0;
+    }
+    .result-list {
+        .results-list-header {
+            border-top: 1px solid #e4e3e3;
+            border-bottom: 2px solid #c8c8c8;
+            margin-bottom: 1em;
+        }
+        .header-cell {
+            width: 25%;
+            color: #696969;
+            font-family: @fontFamilyText;
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+        }
+        .results-cell {
+            width: 25%;
+            font-family: @header-font;
+            font-size: 14px;
+            color: #74767a;
+        }
+    }
+}
+
+home {
+    feature.home-feature {
+        background: url("@{clientImagesPath}/homepage_bg.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+       registry-search {
+
+           .search-registry-section {
+
+            .search-wrapper .reg-buttons-container{
+                .btn{
+                    border-radius: 5px;
+                }
+            }
+            form,
+            .search-registry-title{
+                    background: @homeSearchBoxBackgroundTabletDesktop;
+                }
+           }
+       }
+    }
+}
+
+
+registry-search {
+    .search-registry-section {
+        .search-icon {
+            background: @iconColor;
+            border-radius: 50%;
+            color: white;
+        }
+        .search-registry-title {
+            text-transform: uppercase;
+            font-family: @fontFamilyText2;
+            line-height: 28px;
+            .flex-display();
+        }
+    }
+}
+
+.btn-primary {
+    background: @mainButtonBackgroundColor;
+    border: @mainButtonBorder;
+    color: @mainButtonColor;
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):focus {
+        background: @mainButtonBackgroundColor_hover;
+        color: @mainButtonColor_hover;
+        border: @mainButtonBorder_hover;
+    }
+}
+
+.btn-secondary {
+    background: @secondaryButtonBackgroundColor;
+    border: @secondaryButtonBorder;
+    color: @secondaryButtonColor;
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):focus {
+        background: @secondaryButtonBackgroundColor_hover;
+        color: @secondaryButtonColor_hover;
+        border: @secondaryButtonBorder_hover;
+    }
+}
+
+registry-header {
+    .registry-header {
+        min-height: 180px;
+        background-position: 33% 100%;
+        .event-type-title {
+            margin: 0;
+            text-transform: uppercase;
+            color: @registry-header-event-type-title-color;
+            font-family: @fontFamilyText2;
+            font-size: 37px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+        .header-event-date{
+            order: 4;
+            font-family: @fontFamilyText2;
+            margin-top: 4px;
+        }
+    }
+
+    .header-registrant-name {
+        width: 100%;
+        line-height: normal;
+        margin: 0;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #858585;
+    }
+    .header-event-date {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+}
+
+registry-catalog {
+    .registry-message {
+        font-family: @fontFamilyText;
+        line-height: 30px;
+        font-size: 20px;
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 50px 0 30px 0;
+        color: #858585;
+        overflow: visible;
+        position: relative;
+    }
+    .filtered-sorted-items-groups-list {
+        .filtered-sorted-items-groups-list-item {
+            .group-label {
+                border-bottom: @registryListGroupLabelBorder;
+                border-top: @registryListGroupLabelBorder;
+                color: @registryListGroupLabelTextColor;
+                font-weight: 400;
+                background: none;
+                padding: 7px 20px;
+            }
+        }
+    }
+    .registry-options-wrapper .print-wrapper {
+        background: @iconColor;
+        color: white;
+        .label {
+            display: none;
+        }
+    }
+    .registry-options-wrapper {
+        .registry-filters-list {
+            .registry-filters-list-item {
+                &:first-child {
+                    padding-left: 0;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+registry-item {
+    .registry-item-wrapper {
+        box-shadow: none;
+        margin-bottom: 0;
+        .added-to-cart {
+            background: @iconColor;
+        }
+        .registry-item-box-wrapper {
+            .box-shadow(none);
+            .registry-item-actions-wrapper {
+                .btn-primary {
+                    background: @mainButtonForRegistryItemActionBackgroundColor;
+                    &:hover {
+                        background: @mainButtonForRegistryItemActionBackgroundColor;
+                    }
+                }
+            }
+        }
+        &.type-remaining {
+            .registry-item-box-wrapper {
+                .product-purchased-status-label {
+                    color: @item-status-label-remaining-color;
+                    background: @item-status-label-remaining-bg;
+                }
+            }
+        }
+        &.type-partially-purchased {
+            .registry-item-box-wrapper {
+                .item-image-wrapper:after {
+                    background: linear-gradient(to right bottom, @item-purchased-overlay-bg 50%, transparent 50%);
+                }
+                .product-purchased-status-label {
+                    color: @item-status-label-partially-purchased-color;
+                    background: @item-status-label-partially-purchased-bg;
+                }
+            }
+        }
+        &.type-purchased,
+        &.out-of-stock {
+            .registry-item-box-wrapper {
+                .item-image-wrapper:after {
+                    background: @item-purchased-overlay-bg;
+                }
+                .product-purchased-status-label {
+                    color: @item-status-label-purchased-color;
+                    background: @item-status-label-purchased-bg;
+                }
+            }
+        }
+    }
+}
+
+ship-to-me {
+    .ship-to-me-wrapper {
+        .content-wrapper {
+            &:after {
+                background-image: url("@{clientImagesPath}/gift.jpg");
+            }
+        }
+    }
+}
+
+cart {
+    .buttons-wrapper {
+        .button-wrapper {
+            .btn-secondary {
+                &:hover {
+                    background: @secondaryButtonForCartBackgroundColor;
+                    border-color: @secondaryButtonForCartBackgroundColor;
+                }
+            }
+            &:first-child {
+                .btn-primary {
+                    background: @mainButtonForCartBackgroundColor;
+                    border-color: @mainButtonForCartBackgroundColor;
+                }
+            }
+        }
+    }
+}
+
+navigation-links {
+    .navigation-links-feature {
+        .nav-links {
+            .nav-link {
+                color: @navLinkColor;
+                a {
+                    font-family: @fontFamilyText;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+thank-you {
+    .thank-you-page {
+        .thank-you-image {
+            background-image: url("@{clientImagesPath}/gift.jpg");
+        }
+    }
+}
+
+site-footer {
+    .row {
+        margin: 0;
+        .client-links {
+            padding: 0;
+        }
+    }
+    .bottom {
+        background-color: #363636;
+        ul {
+            li {
+                span {
+                    color: #A3A3A6 !important;
+                }
+                a {
+                    color: #A3A3A6 !important;
+                    .powered-by {
+                        max-height: 15px;
+                        vertical-align: sub;
+                    }
+                }
+            }
+            &.list-bottom {
+                font-size: 11px;
+            }
+        }
+    }
+    .top {
+        ul {
+            li {
+                color: #A3A3A6 !important;
+                div {
+                    span {
+                        color: #A3A3A6 !important;
+                    }
+                }
+                a {
+                    color: #A3A3A6 !important;
+                }
+            }
+        }
+    }
+}
+
+.for-homepage {
+    site-footer {
+        feature {
+            .row {
+                &:first-child {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+cart,
+greeting,
+checkout,
+ship-to-me {
+    .btn {
+        color: white;
+
+    }
+    .btn-primary,
+    .btn-primary:disabled {
+        background: @mainButtonForCartBackgroundColor;
+        border-color: @mainButtonForCartBackgroundColor;
+        &:not(:disabled):not(.disabled):hover {
+            background: @mainButtonForCartBackgroundColor_hover;
+            border-color: @mainButtonForCartBackgroundColor_hover;
+            color: white;
+        }
+    }
+    .btn-secondary,
+    .btn-secondary:disabled {
+        background: @secondaryButtonForCartBackgroundColor;
+        border-color: @secondaryButtonForCartBackgroundColor;
+        &:not(:disabled):not(.disabled):hover {
+            background: @secondaryBButtonForCartBackgroundColor_hover;
+            border-color: @secondaryBButtonForCartBackgroundColor_hover;
+            color: white;
+        }
+    }
+    .buttons-wrapper {
+        .btn {
+            &:nth-last-child(1) {
+                .btn-primary;
+            }
+            &:nth-last-child(2) {
+                .btn-secondary;
+            }
+        }
+    }
+}
+
+.checkout-title {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.static-page-content {
+    font-family: @fontFamilyText;
+}
+
+
+
+gift-it {
+    .modal-btn {
+        width: 94%;
+    }
+}
+
+reset-password {
+    .reset-password-wrapper {
+        background-image: url("@{resetPasswordBackgroundImage}");
+    }
+}
+
+@import '_phones-only';
+@import '_tablets';
+@import '_desktop';

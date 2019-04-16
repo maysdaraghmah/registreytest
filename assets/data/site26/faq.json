@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "question": "Who is responsible for my gift registry? Who should I contact if I have any questions or problems?",
+    "answer": "While Nebraska Furniture Mart customer service and sales experts are always happy to help, you are also able to update and make changes to your registry on your own time. That’s the power of having a registry in the palm of your hand thanks to the Nebraska Furniture Mart Gift Registry app. Rest assured that you are always connected to our experts even after you leave one of our stores. If you have any questions you can always reach the registry at <a href='tel:800-336-9136'>800-336-9136</a>."
+  },
+  {
+    "id": 2,
+    "question": "How does the gift registry work?",
+    "answer": "We’ve built the registry to be as simple and straightforward as possible. With the Nebraska Furniture Mart gift registry, you’ll be able to register for any item we sell. Given NFM’s incredible product selection, we wanted to make sure our gift registry and app supported it all. You can download the Nebraska Furniture Mart Gift Registry app on the App Store or Google Play. Simply browse through our store and scan (or input) the items that you’d like to add to your registry.<br><br> Your guests can browse your registry and purchase or chip in towards any item on your gift registry. This offers you the freedom to make adjustments to your list if you change your mind about a product once your event has arrived.<br><br> You can also register for bigger items that may require several “chip ins” from friends and family. How is this possible? When you register with NFM, anyone you share your list with will have the ability to chip in or fully fund any item on your list! Chipping in allows friends and family to fund your gift registry as generously as they like. Once you’re ready to bring home items on your registry, you will be issued a voucher with the available funds. You can choose to use your funds on any of the items on your list, or if they’re not in stock or are no longer available, you’ll be able to use the funds on any item that we sell. Feel free to use your voucher just as you would a credit card and go on a spending spree with Nebraska Furniture Mart! The prices on NFM Gift Registry are to be used as a guide and are not representative of any current promotions in store or online. This price level helps ensure that when your items are funded by your friends and family you will be ensured to have enough money to cover the item regardless of the sale price at the time."
+  },
+  {
+    "id": 3,
+    "question": "When will I have a copy of the gift selection in my registry?",
+    "answer": "You can access your registry via the Nebraska Furniture Mart Gift Registry app or online at <a href='http://registry.NFM.com'>http://registry.NFM.com</a> by entering the access code and password you were given when you registered. There, you will have access to detailed information on the status of your registry, which gifts were purchased, the ability to update your registry, etc. The account is always updated in real time."
+  },
+  {
+    "id": 4,
+    "question": "When items are purchased or funded, is my registry automatically updated?",
+    "answer": "Yes, every time a guest funds an item in your registry, be it online or in store, your registry is updated. <br><br> If an item is purchased by a guest in store or online, that guest will be able to mark this item as purchased on your registry either in store on our kiosks or online at <a href='http://registry.NFM.com'>http://registry.NFM.com</a>. All purchases made in this manner will automatically reflect on your registry as soon as they are entered."
+  },
+  {
+    "id": 5,
+    "question": "Are the purchases made off the registry refundable?",
+    "answer": "Yes, gifts that the registrar has purchased using their registry voucher can be returned to Nebraska Furniture Mart following our current return policy, found on NFM.com. (<a href='https://www.nfm.com/list.aspx?dsNav=N:0,Ntk:primary|ReturnPolicy|1|,Ro:0'>https://www.nfm.com/list.aspx?dsNav=N:0,Ntk:primary|ReturnPolicy|1|,Ro:0</a>) Our friendly customer service staff will be happy to help you to refund your purchase back to your voucher where possible. If you wish to exchange a gift that was purchased by a guest and not purchased using your voucher, our associates will be glad to help you out with this as well."
+  },
+  {
+    "id": 6,
+    "question": "How do we let our guests know that we are registered at Nebraska Furniture Mart?",
+    "answer": "The Nebraska Furniture Mart Registry makes it easy to let your friends and family know you have chosen to register with us. Whether you created your registry online or on your smartphone with the Nebraska Furniture Mart Gift Registry app, you will have the option to share your registry with a link through email, Facebook, or even a customizable gift registry website URL."
+  },
+  {
+    "id": 7,
+    "question": "Can I track a package that was purchased for me?",
+    "answer": "At this time any items that were purchased (not funded) by a guest would have to be tracked by that guest. Any item that you are purchasing with a voucher would be able to be tracked as you can any other of your orders at Nebraska Furniture Mart."
+  },
+  {
+    "id": 8,
+    "question": "I created my registry in-store on the Kiosk can I access it online?",
+    "answer": "Yes! Please download our app to your smart phone or visit <a href='http://registry.NFM.com'>http://registry.NFM.com</a> to log into your registry and make updates. You are required to use a smart phone and download the App to issue a voucher for the funds which you have received."
+  },
+  {
+    "id": 9,
+    "question": "Can the price of an item change after I have added it to my registry?",
+    "answer": "The prices on NFM Gift Registry are to be used as a guide and are not representative of any current promotions in store or online. This price level helps ensure that when your items are funded by your friends and family you will be ensured to have enough money to cover the item regardless of the sale price at the time."
+  },
+  {
+    "id": 10,
+    "question": "If I log in through Facebook do I have to “Follow” NFM on Facebook?",
+    "answer": "No."
+  },
+  {
+    "id": 11,
+    "question": "Can I have my gifts delivered?",
+    "answer": "Yes, we will deliver gifts within our local delivery zones. You can also use our convenient Drive-Thru Pickup or have your items shipped to your home."
+  },
+  {
+    "id": 12,
+    "question": "How can I edit my contact details in my gift registry?",
+    "answer": "You can access and edit your account online or on the app. Your password and passcode will be created by you when you create your registry.",
+    "outro": "Didn't find the answer to your question? <br> Call us at <a href='tel:800-336-9136'>800-336-9136</a> with any questions or concerns."
+  },
+
+
+  {
+    "id": 13,
+    "question": "I’m having trouble understanding all the numbers. What does it mean “Gifts bought online”? What does it mean “Vouchers issued”? What does it mean “Remaining list balance”?",
+    "answer": "Gifts bought online: Many of your guests will purchase or chip-in for your gift through the online Gift Registry. The total value of gifts purchased or chipped in for through the online Gift Registry is provided here. You can create voucher(s) from this total and use them to redeem your gifts at your local NFM store.<br><br> Vouchers issued: If you have requested and received one or more Vouchers, their total will be shown under this heading. This is the total of the original issuance value of the Vouchers and does not account for any spend through those Vouchers.<br><br> Remaining list balance: This is the difference between ‘Gifts bought online’ and ‘Vouchers Issued’ and with its value you can create a Voucher (i.e. some gifts have not yet been converted to Vouchers). Once you choose to create a Voucher and it is issued, the “remaining list balance” should change to zero (unless more gifts have been bought for you in the meantime!)",
+    "title": "Redeeming gifts",
+    "titleId": "redeem"
+  },
+  {
+    "id": 14,
+    "question": "Can Vouchers be issued online through the Website?",
+    "answer": "YES, Vouchers can be issued through the NFM Gift Registry App (downloadable through the App Store or Google Play), Mobile web and website."
+  },
+  {
+    "id": 15,
+    "question": "How do I know what Vouchers I have and how much each one is worth?",
+    "answer": "Vouchers will be listed at the bottom of the My Vouchers screen within the App. Each Voucher will show an original value and the remaining balance. To use the Voucher, select it and show it to the cashier when checking out at your local NFM store. Vouchers may show as pending for up to twenty-four (24) hours after purchase and are not available for use in store until approved."
+  },
+  {
+    "id": 16,
+    "question": "I’m in the store and I just ordered a Voucher and it has not been issued yet?",
+    "answer": "Approving a Voucher can take up to twenty-four (24) hours. Please be sure to request the Voucher prior to visiting your local NFM store. If you need assistance accessing a Voucher, please send an email to: NFM@jifiti.com. Please include the email address used for registry sign-up."
+  },
+  {
+    "id": 17,
+    "question": "How do I use a Voucher when I check out?",
+    "answer": "During checkout, simply open the App, select the Voucher you wish to use from the bottom of the My Vouchers screen and show the cashier. The cashier will then manually enter the Voucher number and other details displayed."
+  },
+  {
+    "id": 18,
+    "question": "Can I use more than one (1) Voucher at once?",
+    "answer": "<strong>In Store:</strong><br> Yes, multiple Vouchers can be used at the same time in store. During checkout, simply open the App, select the Voucher(s) you wish to use from the bottom of the My Vouchers screen and show them to the cashier one at a time. Note: Minimizing the number of Vouchers you request for a single store visit will expedite the checkout process. Please ensure that you request your Voucher(s) at least one (1) business day in advance of your store visit. Voucher requests made in person in an NFM store, may not be fulfilled until the next business day.<br><br> <strong>On nfm.com:</strong><br>No, at this time nfm.com is only able to accept one form of payment. If you would like to use multiple vouchers and are unable to make it into one of our stores please call <a href='tel:800-336-9136'>800-336-9136</a> and our knowledgeable phone sales professionals will be happy to help you."
+  },
+  {
+    "id": 19,
+    "question": "How do I check my Voucher balance?",
+    "answer": "Select “Get my Gifts” in the App and you will see the remaining balance on each Voucher. You can also see the remaining Gift Registry balance available to use for further Voucher creation. You can also check a Voucher’s balance at any time by calling <a href='tel:855-858-0600'>855-858-0600</a>."
+  },
+  {
+    "id": 20,
+    "question": "How long does it take to get the Voucher once I request it?",
+    "answer": "Once you have requested a Voucher through the App, it will be available for use within twenty-four (24) hours. Please ensure that you request a Voucher at least one (1) business day in advance of your store visit. Voucher requests made in person in an NFM store, may not be fulfilled until the next business day."
+  },
+  {
+    "id": 21,
+    "question": "What fees will I be charged?",
+    "answer": "There are no fees associated with using the Voucher."
+  },
+  {
+    "id": 22,
+    "question": "Do I have to use the voucher for the specific gifts I was gifted?",
+    "answer": "No, you have the flexibility of using the Voucher for any items in your local NFM store. Obviously if you use the value for something not gifted to you, then you will have less value to purchase the gifts which are marked as gifted on your list."
+  },
+  {
+    "id": 23,
+    "question": "What do I do if I lose my voucher/smartphone or my registry login details are compromised?",
+    "answer": "Please call <a href='tel:855-858-0600'>855-858-0600</a> immediately, at any time, if the Voucher details are lost or compromised."
+  },
+  {
+    "id": 24,
+    "question": "Do Voucher funds expire?",
+    "answer": "Voucher funds do not expire. Every eighteen (18) months the voucher will automatically be renewed."
+  },
+  {
+    "id": 25,
+    "question": "Why do I have more than one Voucher?",
+    "answer": "For regulatory reasons the maximum Voucher value is limited to $2000.00. If your total gifts exceed this value, multiple Vouchers are created when you request a Voucher."
+  },
+  {
+    "id": 26,
+    "question": "Do I get a plastic Voucher or physical gift card?",
+    "answer": "No, the Vouchers are electronic only."
+  },
+  {
+    "id": 27,
+    "question": "Can I exchange my Vouchers for cash instead?",
+    "answer": "No, Vouchers are not redeemable for cash, unless the balance of the Voucher is less than $5.00.",
+    "outro": "Didn't find the answer to your question? <br> Call us at <a href='tel:800-336-9136'>800-336-9136</a> with any questions or concerns."
+  }
+]

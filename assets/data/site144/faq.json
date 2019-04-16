@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "question": "Who is responsible for my gift registry? Who should I contact if I have any questions or problems?",
+    "answer": "While Dear-Born Baby has an expert registry consultant available at your disposal, you are also able to update and make changes to it at your convenience. That’s the power of having a registry in the palm of your hand. Rest assured that you are always connected to our experts even after you leave our store. If you have any questions you can always reach the registry at <a href='tel:905-881-3334'>(905) 881-3334</a> x250 or by email at <a href='mailto:registries@dearbornbaby.com'>registries@dearbornbaby.com</a>."
+  },
+  {
+    "id": 2,
+    "question": "How does the gift registry work?",
+    "answer": "It’s easy! You can open your gift registry through our website at <a href='https://registries.dearbornbaby.com'>https://registries.dearbornbaby.com</a> or in store with the help of one of our consultants. Your consultant will help you make choices that are best for you and your baby, no matter your budget."
+  },
+  {
+    "id": 3,
+    "question": "When will I have a copy of the gift selection in my registry?",
+    "answer": "You can access your registry online at <a href='https://registries.dearbornbaby.com'>https://registries.dearbornbaby.com</a> by entering the access code and password you were given when you registered. There, you will have access to detailed information on the status of your registry, which gifts were purchased, the ability to update your registry, etc. The account is always updated in real time."
+  },
+  {
+    "id": 4,
+    "question": "When items are purchased, is my registry automatically updated?",
+    "answer": "Yes, every time your family & friends buy items in your registry, be it online or in store, your registry is updated."
+  },
+  {
+    "id": 5,
+    "question": "Are the purchases made off the registry refundable?",
+    "answer": "No. However, we do offer store credit which can be used for all our items. If you wish to exchange a gift that was given, our specialists will be happy to help. All items must be returned in their original packaging. Exchanges and credits are not possible for special orders or imported items. We do encourage you to finalize your registry within the 90 days following your event in order to enjoy our rebate program in full!"
+  },
+  {
+    "id": 6,
+    "question": "How do we let our guests know that we have entrusted our gift registry to Dear-Born Baby?",
+    "answer": "When you open your gift registry, we will offer you elegant little notice cards in store or online. These cards can be sent along with Baby Shower (Event) invitations. Not only are these cards elegant, they delicately inform your family and friends that you have selected a gift list using the Dear-Born Baby gift registry service."
+  },
+  {
+    "id": 7,
+    "question": "Can I have my gifts delivered?",
+    "answer": "Yes. Free Two Day Shipping applies to any order within the provinces of Ontario, Quebec, Nova Scotia and New Brunswick with a minimum purchase value of $39. For all other provinces and non-remote areas, Free 3 to 5 Day Expedited Shipping applies to any order with a minimum purchase value of $39. Shipping times do not include handling times, weekends or holidays."
+  },
+  {
+    "id": 8,
+    "question": "How can I edit my contact details in my gift registry?",
+    "answer": "You can edit your profile by accessing your account online. Your password and passcode will be created by you when you create your registry. You can also call your consultant at any time, and they will gladly help you with any changes.",
+    "outro": "<strong class='font-weight-bold'>Didn't find the answer to your question?</strong> <br> Call us at <a href='tel:905-881-3334'>(905) 881-3334</a> x250 or by email at <a href='mailto:registries@dearbornbaby.com'>registries@dearbornbaby.com</a>"
+  }
+]

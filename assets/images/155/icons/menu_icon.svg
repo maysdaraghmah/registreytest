@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home_new_version_getmy_gifts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-10.000000, -31.000000)">
+        <g id="menu" transform="translate(11.000000, 31.000000)">
+            <g id="Line" stroke="#008A48" stroke-linecap="square" stroke-width="1.5">
+                <path d="M0.586956522,11 L26.4130435,11"></path>
+                <path d="M0.586206897,1 L33.4137931,1"></path>
+                <path d="M0.586206897,21 L33.4137931,21"></path>
+            </g>
+            <text id="MENU" font-family="Lato-Semibold, Lato" font-size="10" font-weight="500" fill="#008A48">
+                <tspan x="1" y="34">MENU</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

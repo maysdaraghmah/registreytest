@@ -1,0 +1,261 @@
+@import '_variables.less';
+@import '../_functions';
+
+@media (min-width: @screen-min-width-tablets) {
+    .route-wrapper.for-homepage {
+        site-header {
+            .site-header-content {
+                .logo {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    .homepage {
+      .site-header-content {
+        .logo {
+          background: none;
+          pointer-events: none;
+        }
+      }
+    }
+
+    home {
+        .home-feature {
+            background: url("@{clientImagesPath}/homepage_bg_tablet.jpg");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position-y: 86px;
+            &:before {
+                background-image: url("@{clientImagesPath}/logo.svg");
+                content: '';
+                height: 70px;
+                width: 280px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            page-links {
+                feature {
+                    .container {
+                        .page-box {
+                            .page-name {
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        registry-search {
+            .search-registry-section {
+                padding-top: 40px;
+                padding-bottom: 20px;
+                width: 80%;
+                .search-registry-title {
+                    font-size: 35px;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                }
+                .search-input {
+                    font-size: 17px;
+                }
+            }
+
+            .search-wrapper {
+                height: 214px;
+                margin: auto;
+                padding: 0;
+                padding-top: 45px;
+
+                .search-registry-title {
+                    text-align: center;
+                }
+            }
+            .reg-buttons-container {
+                width: 80%;
+                margin: auto;
+                padding: 20px 0 40px;
+                bottom: -130px;
+
+                .btn {
+                  margin-bottom: 0 !important;
+                  width: 48%;
+                }
+            }
+        }
+        page-links {
+            .page-links-list {
+                width: 100%;
+            }
+        }
+    }
+
+  page-links {
+    .page-links-list {
+      width: 78%;
+      margin-top: 100px;
+
+      &:before {
+        top: -5%;
+        left: -20px;
+        position: absolute;
+        background-image: url("@{clientImagesPath}/frame_left.png");
+        content: '';
+        width: 20px;
+        display: inline-block;
+        bottom: -5%;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      &:after {
+        top: -5%;
+        right: -20px;
+        position: absolute;
+        background-image: url("@{clientImagesPath}/frame_right.png");
+        content: '';
+        width: 20px;
+        display: inline-block;
+        bottom: -5%;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .page-link-list-item {
+      width: 32.5%;
+
+      .page-box {
+        margin: 0;
+        border: 0;
+
+        .page-image {
+          height: auto;
+        }
+
+        .page-name {
+          width: 92%;
+          height: 90%;
+          left: 4%;
+          top: 5%;
+        }
+      }
+    }
+  }
+
+    site-footer {
+    .top-wrapper {
+      .footer-link-anchor {
+        color: @footerLinksColor;
+      }
+    }
+  }
+
+    search-results {
+      .search-results-section {
+        width: 98%;
+      }
+
+      .result-list {
+        .header-cell {
+          font-size: 14px;
+        }
+
+        .header-cell,
+        .results-cell {
+          &.event-type {
+            width: 20%;
+          }
+
+          &.event-registrant,
+          &.event-coregistrant {
+            width: 20%;
+          }
+        }
+      }
+    }
+
+    registry-header {
+        .registry-header {
+            padding: 9px;
+            >img {
+                display: block;
+            }
+        }
+    }
+
+    registry-item {
+        min-height: 380px;
+        .registry-item-wrapper {
+            margin-bottom: 0;
+            box-shadow: none;
+        }
+    }
+    registry-catalog {
+        feature {
+            &.registry-catalog {
+                .registry-message {
+                    width: 100%;
+                    line-height: 32px;
+                    font-size: 22px;
+                    color: #047934;
+                    font-style: italic;
+                    padding: 50px 0 30px;
+                }
+            }
+        }
+    }
+    checkout .checkout-header .checkout-title,
+    greeting .col-container form .greeting-header h1,
+    cart .cart-title-wrapper .cart-title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    navigation-links {
+        .navigation-links-feature {
+            .nav-links {
+                .nav-link {
+                    display: inline-flex;
+                }
+            }
+        }
+
+      .nav-link {
+        .nav-link-cart-amount {
+          background: transparent;
+        }
+      }
+    }
+
+    .static-page-feature {
+        .static-page-header {
+            .static-page-header-title {
+                font-size: 28px;
+                letter-spacing: 5px;
+            }
+        }
+    }
+}
+
+.mac {
+    home {
+        registry-search {
+            .search-registry-section {
+                .search-wrapper {
+                    height: 194px;
+                    padding-top: 45px;
+                }
+            }
+        }
+        page-links .page-links-list {
+            width: 100%;
+        }
+    }
+}

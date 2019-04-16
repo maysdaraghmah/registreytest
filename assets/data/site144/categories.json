@@ -1,0 +1,74 @@
+[
+	{
+		"CategoryId": "2",
+		"CategoryImage": "https://sproutqa.jifiti.com/registered/images/Categories/category_swaddlesclothing_web.jpg",
+		"CategoryOrder": 2,
+		"IsRecomended": false,
+		"Title": "APPAREL"
+	},
+	{
+		"CategoryId": "3",
+		"CategoryImage": "https://sproutqa.jifiti.com/registered/images/Categories/category_swaddlesclothing_web.jpg",
+		"CategoryOrder": 3,
+		"IsRecomended": false,
+		"Title": "APPAREL"
+	},
+	{
+		"CategoryId": "4",
+		"CategoryImage": "https://sproutqa.jifiti.com/registered/images/Categories/category_travel_web.jpg",
+		"CategoryOrder": 1,
+		"IsRecomended": false,
+		"Title": "STROLLERS"
+	},
+	{
+		"CategoryId": "5",
+		"CategoryImage": "https://sproutqa.jifiti.com/registered/images/Categories/category_swaddlesclothing_web.jpg",
+		"CategoryOrder": 5,
+		"IsRecomended": false,
+		"Title": "APPAREL"
+	},
+	{
+		"CategoryId": "14",
+		"CategoryImage": "https://sproutqa.jifiti.com/registered/images/Categories/category_nurserydecor_web.jpg",
+		"CategoryOrder": 6,
+		"IsRecomended": false,
+		"Title": "NURSERY"
+	},
+	{
+		"CategoryId": "102767",
+		"CategoryOrder": 999,
+		"IsRecomended": false,
+		"ParentCategory": 191,
+		"Title": "CYCLONES"
+	},
+	{
+		"CategoryId": "191",
+		"CategoryImage": "",
+		"CategoryOrder": 999,
+		"IsRecomended": false,
+		"ParentCategory": 2,
+		"Title": "SPORTS APPAREL"
+	},
+	{
+		"CategoryId": "102971",
+		"CategoryOrder": 999,
+		"IsRecomended": false,
+		"ParentCategory": 2,
+		"Title": "ADEN + ANAIS"
+	},
+	{
+		"CategoryId": "102968",
+		"CategoryOrder": 999,
+		"IsRecomended": false,
+		"ParentCategory": 2,
+		"Title": "BABY DEEDEE"
+	},
+	{
+		"CategoryId": "142",
+		"CategoryImage": "",
+		"CategoryOrder": 999,
+		"IsRecomended": false,
+		"ParentCategory": 2,
+		"Title": "BOYS ACCESSORIES"
+	}
+]

@@ -1,0 +1,221 @@
+{
+	"logo": {
+		"desktop": "assets/images/144/logo.png",
+		"mobile": "assets/images/144/logo.png"
+	},
+	"topHeaderLinks": [
+		{
+			"title": "Store Info",
+			"url": "/Stores",
+			"type": "static"
+		},
+		{
+			"title": "FAQ",
+			"url": "pages/FAQ",
+			"type": "static"
+		},
+		{
+			"title": "Return to Dear-Born Baby",
+			"url": "https://www.dearbornbaby.com",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Sign Out",
+			"url": null,
+			"type": "logout"
+		},
+		{
+			"title": "Your cart",
+			"url": null,
+			"type": "cart",
+			"amount": null,
+			"image": "/assets/images/144/icons/cart.svg"
+		}
+	],
+	"siteHeaderLinks": [
+		{
+			"title": "Add Gifts",
+			"url": "/registered/categories"
+		},
+		{
+			"title": "Edit Settings",
+			"url": "/registered/settings",
+			"notificationEnabled": true
+		},
+		{
+			"title": "Share List",
+			"url": null,
+			"type": "share-list"
+		},
+		{
+			"title": "Manage List",
+			"url": "/registered/manageList"
+		},
+		{
+			"title": "Change List",
+			"url": null,
+			"type": "change-list",
+			"submenu":[]
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"type": "guest-list"
+		}
+	],
+	"mobileMenuLinks": [
+		{
+			"title": "Home",
+			"url": "registered/home",
+			"icon": "assets/images/144/icons/home-simple.svg"
+		},
+		{
+			"title": "Add Gifts",
+			"icon": "assets/images/144/icons/addGiftsIcon.svg",
+			"type": "add-gifts",
+			"display": false,
+			"submenu": [
+				{
+					"title": "Scan Barcode",
+					"url": "/registered/scanner",
+					"icon": "assets/images/144/icons/scanBarcodeIcon.svg"
+				},
+				{
+					"title": "Enter Item Number",
+					"url": "/registered/enter-key",
+					"icon": "/assets/images/144/icons/search.svg"
+				},
+				{
+					"title": "Browse Categories",
+					"url": "/registered/categories",
+					"icon": "assets/images/144/icons/browseCatalogIcon.svg"
+				}
+			]
+		},
+		{
+			"title": "Manage My Lists",
+			"url": null,
+			"icon": "assets/images/144/icons/list-view.svg",
+			"type":"change-list",
+			"display": false,
+			"submenu": [
+				{
+					"title": "Create A New List",
+					"url": "registered/event",
+					"icon":"assets/images/144/icons/add.svg"
+				}
+			]
+		},
+		{
+			"title":"Gift Tracker",
+			"url": "registered/giftTracker",
+			"icon": "assets/images/144/icons/love-card.svg"
+		},
+		{
+			"title": "Settings",
+			"url": "registered/settings",
+			"icon": "assets/images/144/icons/settings.svg",
+			"notificationEnabled": true
+		},
+		{
+			"title": "Help",
+			"url":null,
+			"icon": "assets/images/144/icons/help.svg",
+			"display": false,
+			"submenu": [
+				{
+					"title": "FAQ",
+					"url": "pages/FAQ",
+					"icon": "assets/images/144/icons/faq_icon.svg",
+					"type": "static"
+				},
+				{
+					"title": "Call a Registry Expert",
+					"externalUrl": "tel:+9058813334",
+					"icon": "assets/images/144/icons/callRegistryExpertIcon.svg",
+					"type":"phone"
+				}
+			]
+		},
+		{
+			"title": "Store Info",
+			"url": "Stores",
+			"icon": "assets/images/144/icons/icon_info.svg",
+			"type":"static"
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"icon": "assets/images/144/icons/view_as_guest.svg",
+			"type":"guest-list"
+		}
+	],
+	"navTabsTitle": [
+		{
+			"id": 1,
+			"active": true,
+			"label": "Profile"
+		},
+		{
+			"id": 2,
+			"active": false,
+			"label": "Shipping Address",
+			"notificationEnabled": true
+
+		},
+		{
+			"id": 3,
+			"active": false,
+			"label": "Event Details"
+		},
+		{
+			"id": 4,
+			"active": false,
+			"label": "Co-Registrant"
+		},
+		{
+			"id": 5,
+			"active": false,
+			"label": "Registry Info"
+		}
+	],
+	"jifitiLegal": {
+		"externalUrl": "https://www.jifiti.com",
+		"imageSrc": "/assets/images/jifiti_logo_grey.svg"
+	},
+	"copyright": {
+		"url": null,
+		"title": "Copyright © 2019"
+	},
+	"termsAndConditions": {
+		"url": "/pages/TermsAndConditions",
+		"title": "Terms & Conditions"
+	},
+	
+	"footerLinks": [
+		{
+			"title": "Create a Registry",
+			"url": "/registered/event",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Manage List",
+			"url": "/registered",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Store Info",
+			"url": "/Stores",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "static",
+			"isInKioskMode": true
+		}
+	]
+}

@@ -1,0 +1,224 @@
+[
+	{
+		"eventKey": "wedding",
+		"navLinktext": "Wedding",
+		"carouselHeaderText": "Wedding Registry",
+		"carouselText": "Everything You Want for a Registry You'll Love",
+		"pictures": {
+			"left": "assets/images/155/wedding/weddingLeft.jpg",
+			"middle": "assets/images/155/wedding/weddingMiddle.jpg",
+			"upRight": "assets/images/155/wedding/weddingRightUp.jpg",
+			"downRight": "assets/images/155/wedding/weddingRghtDown.jpg",
+			"benefit": "assets/images/155/wedding/benefitsPicture.jpg"
+		},
+		"benefitText": {
+			"title": "3 Tips For a Well-Rounded Registry",
+			"textChunks": [
+				{
+					"header": "1. Register Beyond the Basics",
+					"text": "Sure, you’ll probably want to register for essentials like cookware and sheets, but don’t feel like you need to stop there. Find items that capture your personality and align with your hobbies, interests, and style. If you love to travel, find luggage you love. If you’re a music lover, register for a home stereo system. Look for ways to make your registry uniquely your own."
+				},
+				{
+					"header":"2. Consider Price",
+					"text":"It’s a great idea to include a variety of price points on your registry so that all your guests can find a gift they’re happy to give. It’s good to provide options ranging from about $25 to $500. With our Group Gifting option, multiple guests can pitch in toward higher priced items, so it is OK to register for some larger gifts."
+				},
+				{
+					"header":"3. Upgrade Existing Items",
+					"text":"Your wedding registry is the perfect opportunity to replace worn-out or low-quality products that you already have in your life. From quality sheets and bedding to that professional-grade cookware you’ve had your eye on, your wedding registry is a great place to upgrade to more luxury-minded household items."
+				}
+			]
+		},
+		"topBrands": [
+			"assets/images/155/brands/eddie_bauer.svg",
+			"assets/images/155/brands/cuisinart.svg",
+			"assets/images/155/brands/kitchen_aid.svg",
+			"assets/images/155/brands/rachel_ray.svg",
+			"assets/images/155/brands/ninja.svg"
+		],
+		"exclusiveBrands": [
+			{
+				"src": "assets/images/155/exclusive-brands/curatedNomad.jpg",
+				"title": "assets/images/155/brands/the_curated_nomad.svg"
+			},
+			{
+				"src": "assets/images/155/exclusive-brands/gracewoodHollow.jpg",
+				"title": "assets/images/155/brands/gracewood_hollow.svg"
+			},
+			{
+				"src": "assets/images/155/exclusive-brands/carsonCarrington.jpg",
+				"title": "assets/images/155/brands/carson_carrington_home.svg"
+			}
+		],
+		"swipeImages":[
+			"assets/images/155/homepage_swipe_images/wedding/1.jpg",
+			"assets/images/155/homepage_swipe_images/wedding/2.jpg",
+			"assets/images/155/homepage_swipe_images/wedding/3.jpg",
+			"assets/images/155/homepage_swipe_images/wedding/4.jpg"
+		]
+	},
+	{
+		"eventKey": "housewarming",
+		"navLinktext": "Housewarming",
+		"carouselHeaderText": "Housewarming Registry",
+		"carouselText": "Turn Your New Home Into Your Dream Home",
+		"pictures": {
+			"left": "assets/images/155/housewarming/housewarmingLeft.jpg",
+			"middle": "assets/images/155/wedding/weddingMiddle.jpg",
+			"upRight": "assets/images/155/wedding/weddingLeft.jpg",
+			"downRight": "assets/images/155/wedding/weddingRghtDown.jpg",
+			"benefit": "assets/images/155/housewarming/housewarmingBenefits.jpg"
+		},
+		"benefitText": {"title": "Where to Splurge and Where to Save",
+			"textChunks": [
+				{
+					"text":"Fully furnishing a new home may seem overwhelming, but it certainly doesn’t have to be. The key is to strategically choose some pieces to splurge on and some to save on."
+				},
+				{
+					"header": "Splurge",
+					"text":"It’s often smart to go all out on the perfect high-quality sofa to suit your space and your tastes and that will last for years. It may also be smart to splurge on quality and stylish throw pillows for your new couch, a dining table that can grow with your tastes for many years, and nice cookware that will get a lot of use in your new home."
+				},
+				{
+					"header": "Save",
+					"text": "You can often find great deals on things like accent chairs, rugs, lamps, and dinnerwear. These are the sorts of items that aren’t necessarily as important style-wise as something like a sofa. They are also the kinds of pieces you may want to swap out at a more frequent cadence when your tastes change, and they are things that can easily be replaced and upgraded over time."
+				}
+			]
+		},
+		"topBrands": [
+			"assets/images/155/brands/christofer_knight.svg",
+			"assets/images/155/brands/serta.svg",
+			"assets/images/155/brands/safavieh.svg",
+			"assets/images/155/brands/furniture_america.svg",
+			"assets/images/155/brands/handy_living.svg"
+		],
+		"exclusiveBrands": [
+			{
+				"src": "assets/images/155/exclusive-brands/grayBarn.jpg",
+				"title": "assets/images/155/brands/gray_barn.svg"
+			},
+			{
+				"src": "assets/images/155/exclusive-brands/osleep.jpg",
+				"title": "assets/images/155/brands/osleep.svg"
+			},
+			{
+				"src": "assets/images/155/exclusive-brands/porchDen.jpg",
+				"title": "assets/images/155/brands/porch_den.svg"
+			}
+		],
+		"swipeImages":[
+			"assets/images/155/homepage_swipe_images/housewarming/1.jpg",
+			"assets/images/155/homepage_swipe_images/housewarming/2.jpg",
+			"assets/images/155/homepage_swipe_images/housewarming/3.jpg",
+			"assets/images/155/homepage_swipe_images/housewarming/4.jpg"
+		]
+	},
+	{
+		"eventKey": "baby",
+		"navLinktext": "Baby",
+		"carouselHeaderText": "Baby Registry",
+		"carouselText": "The Perfect Way to Prepare for Your Bundle of Joy",
+		"pictures": {
+			"left": "assets/images/155/baby/babyLeft.jpg",
+			"middle": "assets/images/155/baby/babyMiddle.jpg",
+			"upRight": "assets/images/155/baby/babyRightUp.jpg",
+			"downRight": "assets/images/155/baby/babyRightDown.jpg",
+			"benefit": "assets/images/155/baby/babyBenefit.jpg"
+		},
+		"benefitText": {
+			"title": "5 Steps to a Baby-Ready Nursery",
+			"textChunks": [
+				{
+					"header": "1. Choose a Color Palette",
+					"text": "Feel free to shed the traditional blue and pink, and opt for soft shades of yellow, green, or grey. These hues are often more versatile and won’t call for redecorating when the next baby comes along."
+				},
+				{
+					"header": "2. Pick Out the Nursery Furniture",
+					"text": "There are many options out there, but it’s important to nail the basics: a crib/bassinet, a comfortable chair for yourself, and a changing table that can double as extra storage space for baby essentials."
+				},
+				{
+					"header": "3. Cover the Essentials",
+					"text": "From home needs like bedding and baby monitors to the things you’ll need when you leave the nursery like car seats, strollers, and portable cribs, think of those daily baby necessities that you may not have thought of before."
+				},
+				{
+					"header": "4. Make It Comfy-Cozy",
+					"text": "You’ll be spending a lot of time in your baby’s nursery, so be sure to make it comfortable for yourself with items like a plush rug, ottoman, and rocking chair."
+				},
+				{
+					"header": "5. Add Decor to Make It Unique",
+					"text": "Turn the space into a haven for you and your baby with things like stuffed animals, wall art, and other personal touches to make it a cute and pleasant place."
+				}
+			]
+		},
+		"topBrands": [
+			"assets/images/155/brands/graco.svg",
+			"assets/images/155/brands/jujube.svg",
+			"assets/images/155/brands/delta_children.svg",
+			"assets/images/155/brands/nuk.svg",
+			"assets/images/155/brands/lambs_ivy.svg"
+		],
+		"swipeImages":[
+			"assets/images/155/homepage_swipe_images/baby_shower/1.jpg",
+			"assets/images/155/homepage_swipe_images/baby_shower/2.jpg",
+			"assets/images/155/homepage_swipe_images/baby_shower/3.jpg",
+			"assets/images/155/homepage_swipe_images/baby_shower/4.jpg"
+		]
+	},
+	{
+		"eventKey": "specialOccasion",
+		"navLinktext": "Special Occasion",
+		"carouselHeaderText": "Special Occasion Registry",
+		"carouselText": "Endless Possibilities to Celebrate Life’s Big Moments",
+		"pictures": {
+			"left": "assets/images/155/special/specialLeft.jpg",
+			"middle": "assets/images/155/special/specialMiddle.jpg",
+			"upRight": "assets/images/155/special/specialUpRight.jpg",
+			"downRight": "assets/images/155/special/specialDownRight.jpg",
+			"benefit": "assets/images/155/special/specialBenefit.jpg"
+		},
+		"benefitText": {
+			"textChunks": [
+				{
+					"text": "Make your special occasion even more special by creating an Overstock gift registry. Whether you or your child are heading off to college, having a significant birthday, graduating, or having another special life event, an Overstock gift registry is a great way to outfit that next chapter of your life."
+				}
+			]
+		},
+		"topBrands": [
+			"assets/images/155/brands/coleman.svg",
+			"assets/images/155/brands/canon.svg",
+			"assets/images/155/brands/eddie_bauer.svg",
+			"assets/images/155/brands/kitchen_aid.svg",
+			"assets/images/155/brands/serta.svg"
+		],
+		"swipeImages":[
+			"assets/images/155/homepage_swipe_images/special_occasion/1.jpg",
+			"assets/images/155/homepage_swipe_images/special_occasion/2.jpg",
+			"assets/images/155/homepage_swipe_images/special_occasion/3.jpg",
+			"assets/images/155/homepage_swipe_images/special_occasion/4.jpg"
+		]
+	},
+	{
+		"eventKey": "whyOverstock",
+		"navLinktext": "Why Overstock",
+		"pictures": {},
+		"topBrands": [
+			"assets/images/155/brands/canon.svg",
+			"assets/images/155/brands/cuisinart.svg",
+			"assets/images/155/brands/south_shore.svg",
+			"assets/images/155/brands/lambs_ivy.svg",
+			"assets/images/155/brands/circulon.svg"
+		],
+		"exclusiveBrands": [
+			{
+				"src":"assets/images/155/exclusive-brands/grayBarn.jpg",
+				"title": "assets/images/155/brands/gray_barn.svg"
+			},
+			{
+				"src":"assets/images/155/exclusive-brands/porchDen.jpg",
+				"title": "assets/images/155/brands/porch_den.svg"
+			},
+			{
+				"src": "assets/images/155/exclusive-brands/curatedNomad.jpg",
+				"title": "assets/images/155/brands/the_curated_nomad.svg"
+			}
+		]
+	}
+]

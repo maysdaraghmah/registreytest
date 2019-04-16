@@ -1,0 +1,279 @@
+{
+	"guests":{
+		"headerLinks": [
+		  {
+			"title": "Why Book?",
+			"url": "/pages/whyUs",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Why Register?",
+			"url": "/pages/registryBenefits",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Return to LibertyTravel",
+			"url": null,
+			"externalUrl": "http://www.libertytravel.com/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your Honeymoon Contribution",
+			"url": null,
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Honeymoon Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage my Registry",
+			"url": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/Faq",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {
+		  "url": "//gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/powered-by-jifiti.svg",
+		  "text": "All rights reserved."
+		},
+
+		"copyright": {
+		  "text": "Copyright © 2018 Jifiti.com"
+		},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {
+		  "url": "//gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Honeymoon Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage my Registry",
+			"url": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  },
+	"couples":{
+		"headerLinks": [
+		  {
+			"title": "Why Book?",
+			"url": "/pages/whyUs",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Why Register?",
+			"url": "/pages/registryBenefits",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Return to LibertyTravel",
+			"url": null,
+			"externalUrl": "http://www.libertytravel.com/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your Honeymoon Contribution",
+			"url": null,
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Honeymoon Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": "/registered/#/eventpage",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage Your Registry",
+			"url": "/Registered",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {
+		  "url": "//gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/powered-by-jifiti.svg",
+		  "text": "All rights reserved."
+		},
+
+		"copyright": {
+		  "text": "Copyright © 2018 Jifiti.com"
+		},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {
+		  "url": "//gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Honeymoon Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage my Registry",
+			"url": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  }
+
+}

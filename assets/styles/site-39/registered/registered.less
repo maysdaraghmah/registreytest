@@ -1,0 +1,88 @@
+﻿
+@import '../_variables';
+@import '_variables';
+@import '../../_functions';
+
+product-item-box {
+    .product-item-box-wrapper {
+        &.in-user-list:before {
+            background: @iconColor;
+        }
+    }
+}
+
+
+event-registry {
+	color: @fontMainColor;
+	border-radius: 3px;
+
+	.custom-dropdown{
+		.custom-dropdown-list{
+			top: 20px;
+		}
+	}
+
+	.form-input.ng-pristine,
+	dropdown.ng-pristine .custom-dropdown-toggle {
+		color: @fontPlaceholderColor;
+
+		&::placeholder {
+			color: rgba(84, 86, 88, 0.5);
+		}
+	}
+
+
+	.date-picker-container {
+		position: relative;
+
+		&:after {
+			display: block;
+			position: absolute;
+			right: 3px;
+			bottom: 4px;
+			content: '';
+			width: 17px;
+			height: 17px;
+			background-image: url('/assets/images/155/icons/event_date_icon.svg');
+			background-repeat: no-repeat;
+			background-size: 17px;
+			pointer-events: none;
+		}
+	}
+
+	.mobile-event-section {
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+
+	.event-next-btn,
+	.event-submit-btn {
+		background-color: @primaryBtnBgColor;
+		color: @colorWhite;
+		border: none;
+	}
+}
+
+.bs-datepicker-container {
+	.bs-datepicker-head {
+		background-color: @primaryBtnBgColor;
+	}
+
+	.bs-datepicker-body {
+		.selected {
+			background-color: @primaryBtnBgColor !important;
+		}
+	}
+}
+
+
+@import '_phones-only';
+@import '_tablets';
+@import '_desktop';
+
+
+
+

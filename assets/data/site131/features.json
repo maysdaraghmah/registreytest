@@ -1,0 +1,141 @@
+{
+	"allowCartToHoldMultipleRegitries": false,
+	"allowFacebookLoginOnGreeting": true,
+	"btnRegistrantCheckoutEnabledOnCart": 0,
+	"btnRegistrantRequestShippingEnabledOnCart": 0,
+	"guestCartButtons": [
+		{
+			"type": 2
+		}
+	],
+	"registeredCartButtons": [],
+	"chatEnabled": false,
+	"olarkChatEnabled": true,
+	"checkoutTaxTooltip": true,
+	"chipInState": 1,
+	"clientSiteUrl": "",
+	"displayBarcode": false,
+	"displayCheckboxOnPrintedCatalog": true,
+	"displayItemImageOnPrintedCatalog": false,
+	"displyaWantedAndReceivedCounter": true,
+	"displayRegistryItemsAsOneList": false,
+	"zendeskChatEnabled": false,
+	"defaultPurchasedStatusFilterType": 0,
+	"estimatedProvisionForSalesTax": true,
+	"eventFieldWhichEventImagesPathBasedOn": 1,
+	"firstSortEventsSearchResultsByField": "Date",
+	"giftItState": 1,
+	"guestTopPicksState": 1,
+	"hasStoredValue": true,
+	"outOfStock": true,
+	"imagePrefixURLForCatalgPage": "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+	"jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": true,
+	"jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": true,
+	"kioskModeState": 1,
+	"passwordPattern": "^.{6,}$",
+	"passwordPatternErrorMessage": "Password must be at least 6 characters.",
+	"printRegistryItemsListOption": true,
+	"purchasedInStoreState": 1,
+	"searchResultFields": [
+		1,
+		2,
+		3,
+		4
+	],
+	"shipToMeDisclaimerState": 1,
+	"sortRegistryState": 1,
+	"cartGrid": {
+		"bodyColumns": {
+			"itemImage": true,
+			"itemTitle": true,
+			"price": true,
+			"quantity": true,
+			"total": true,
+			"remove": true
+		},
+		"headerColumns": [
+			"Item",
+			"",
+			"Price",
+			"Quantity",
+			"Total",
+			""
+		],
+		"isHeader": "true"
+	},
+	"hasTax": true,
+	"minCharactersForZip": 5,
+  "allowCartToHoldMultipleRegitries": false,
+  "allowFacebookLoginOnGreeting": true,
+  "btnRegistrantCheckoutEnabledOnCart": 0,
+  "btnRegistrantRequestShippingEnabledOnCart": 0,
+  "guestCartButtons": [
+    {
+      "type": 2
+    }
+  ],
+	"registrantCoRegistrantMobileCombined": false,
+  "registeredCartButtons": [],
+  "chatEnabled": false,
+  "checkoutTaxTooltip": true,
+  "chipInState": 1,
+  "displayBarcode": false,
+  "displayCheckboxOnPrintedCatalog": true,
+  "displayEventTypeIconInSearchResultsList": true,
+  "displayItemImageOnPrintedCatalog": false,
+  "displyaWantedAndReceivedCounter" : true,
+  "displayRegistryItemsAsOneList" : false,
+
+  "defaultPurchasedStatusFilterType": 0,
+  "estimatedProvisionForSalesTax": true,
+  "eventFieldWhichEventImagesPathBasedOn" : 1,
+  "firstSortEventsSearchResultsByField" : "Date",
+
+  "giftItState": 1,
+  "guestTopPicksState": 1,
+  "hasStoredValue": true,
+  "outOfStock": true,
+
+  "imagePrefixURLForCatalgPage" : "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+
+
+  "jifitiIsTheMerchantOfRecord": true,
+  "kioskModeState": 1,
+  "passwordPattern": "^.{6,}$",
+  "passwordPatternErrorMessage": "Password must be at least 6 characters.",
+  "printRegistryItemsListOption" : true,
+  "purchasedInStoreState": 1,
+  "searchResultFields": [1,2,3,4],
+  "shipToMeDisclaimerState": 1,
+  "sortRegistryState": 1,
+  "cartGrid": {
+    "bodyColumns": {
+      "itemImage": true,
+      "itemTitle": true,
+      "price": true,
+      "quantity": true,
+      "total": true,
+      "remove": true
+    },
+    "headerColumns": [
+      "Item",
+      "",
+      "Price",
+      "Quantity",
+      "Total",
+      ""
+    ],
+    "isHeader": "true"
+  },
+  "hasTax" : true,
+	"twoStepsEventRegistry": false,
+	"registryCarouseLinks": false,
+	"eventOwnerPhoneRequired": true,
+	"showBabyDueDate": false,
+	"showNumberOfGuests": false,
+	"babyListID": null,
+	"displayUsernameOnLogoutLink": true,
+	"barcodeDigitsNumber": 8,
+	"categoriesLinksNavbarWithDropdown": false,
+	"addGiftsMobileSlider": 1
+}

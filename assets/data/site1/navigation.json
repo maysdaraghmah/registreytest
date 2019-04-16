@@ -1,0 +1,306 @@
+{
+	"guests":{
+		"headerLinks": [
+		  {
+			"title": "About",
+			"url": "/pages/whyUs",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Benefits",
+			"url": "/pages/registryBenefits",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Store Info",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Help",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Return to Sprout",
+			"url": null,
+			"externalUrl": "http://sproutbysteves.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Manage my Registry",
+			"url": null,
+			"externalUrl": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Store Info",
+			"url": null,
+			"externalUrl": "/Registered/index.html#/stores",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/Faq",
+			"type": "Static",
+			"isInKioskMode": true
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {
+		  "url": "//gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/powered-by-jifiti.svg",
+		  "text": "All rights reserved."
+		},
+
+		"copyright": {
+		  "text": "Copyright © 2018"
+		},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {
+		  "url": "//gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  },
+	"couples":{
+		"headerLinks": [
+		  {
+			"title": "About",
+			"url": "/pages/whyUs",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Benefits",
+			"url": "/pages/registryBenefits",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Store Info",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Help",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Return to Sprout",
+			"url": null,
+			"externalUrl": "http://sproutbysteves.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": "/registered/#/eventpage",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Manage Your Registry",
+			"url": "/Registered",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": true
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {
+		  "url": "//gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/powered-by-jifiti.svg",
+		  "text": "All rights reserved."
+		},
+
+		"copyright": {
+		  "text": "Copyright © 2018"
+		},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {
+		  "url": "//gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  }
+
+}

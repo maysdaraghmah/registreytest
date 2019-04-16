@@ -1,0 +1,108 @@
+{
+  "downloadButton": null,
+  "printButton": true,
+  "text": null,
+  "listView": [
+    {
+      "title": "Clothing",
+      "list": [
+        "4-8 onesies (wide head openings and loose legs)",
+        "4-8 undershirts (snaps at neck or wide head openings, snaps under crotch)",
+        "4-8 one-piece pajamas",
+        "2 blanket sleepers for winter baby",
+        "1-3 sweaters or jackets (front buttoned)",
+        "1-3 rompers or other dress-up outfits",
+        "4-7 socks or booties (shoes are unnecessary until baby walks)",
+        "1-3 hats (broad-brimmed for summer baby, soft cap that covers ears for winter baby)",
+        "No-scratch mittens",
+        "Bunting bag or fleece suit for winter baby (not too bulky for wearing in carseat)",
+        "Mezuzah Holders",
+        "Swimsuit for summer baby"
+      ]
+    },
+    {
+      "title": "Nursery",
+      "list": [
+        "Crib, cradle or bassinet",
+        "Firm, flat mattress fit snugly in crib (less than two fingers should fit between mattress and crib)",
+        "Rocking or arm chair",
+        "Baby monitor",
+        "Nightlight & Soother",
+        "Dresser"
+      ]
+    },
+    {
+      "title": "Bedding",
+      "list": [
+        "1-3 washable crib mattress pads",
+        "2-4 fitted crib sheets",
+        "4-6 soft, light muslin blankets",
+        "1-2 heavier blankets (for colder climates)"
+      ]
+    },
+    {
+      "title": "Diapering",
+      "list": [
+        "Changing table or cushioned changing pad for low dresser or bureau, with safety strap or railing",
+        "Changing table pad and cover",
+        "Diaper pail and liners",
+        "Diaper bag",
+        "Diaper cream",
+        "Unscented baby wipes (causes less irritation)",
+        "Soft washcloths",
+        "Cloth Diapers (see store for recommended quantities)",
+        "Disposable Diapers (try a few brands to see what you prefer)"
+      ]
+    },
+    {
+      "title": "Bath",
+      "list": [
+        "Baby soap",
+        "Baby bathtub",
+        "Baby shampoo",
+        "2-4 soft towels or hooded baby towels",
+        "Baby hairbrush",
+        "Soft washcloths (use a different color or pattern than your diaper washcloths!)",
+        "Gentle laundry detergent"
+      ]
+    },
+    {
+      "title": "Feeding",
+      "list": [
+        "10-16 bottles and nipples, both 4- and 8- ounce (if fed strictly by the bottle, baby will go through about 10 in the 4-ounce size per day)",
+        "Pump (if you plan to breastfeed)",
+        "Milk storage bags (if you plan to breastfeed)",
+        "Nursing pads (if you plan to breastfeed)",
+        "Nipple cream (if you plan to breastfeed)",
+        "Nursing pillow (if you plan to breastfeed)",
+        "Bottle warmer (cuts down on nighttime trips to and from the kitchen)",
+        "Bottle sterilizer (if your dishwasher doesn’t have one)",
+        "Bottle brush",
+        "Dishwasher basket for small items",
+        "4-8 bibs",
+        "Burp cloths",
+        "2-4 pacifiers",
+        "Formula (if not nursing)"
+      ]
+    },
+    {
+      "title": "Health",
+      "list": [
+        "Baby nail clippers or blunt scissors",
+        "Baby thermometer",
+        "First aid kit"
+      ]
+    },
+    {
+      "title": "Gear",
+      "list": [
+        "Infant or convertible car seat",
+        "Stroller or infant carrier",
+        "Swing or bouncy chair",
+        "High chair",
+        "Baby carrier/sling"
+      ]
+    }
+  
+  ]
+}

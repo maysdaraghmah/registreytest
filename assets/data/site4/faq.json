@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "answer": "If you need assistance booking your honeymoon or have questions about your current booking, please call (877) 999-3199 or visit http://www.libertytravel.com/inquiry.",
+    "question": "Who should I contact if I have any questions about my honeymoon?"
+  },
+  {
+    "id": 2,
+    "answer": "Get started by selecting “Create a Registry” on the main page. You’ll then be asked to create a login and give us all the details about yourself and your honeymoon, such as your names and where you’ll be traveling.",
+    "question": "How do I set up my honeymoon registry?"
+  },
+  {
+    "id": 3,
+    "answer": "This is where the fun really starts. Once you’ve created your registry, you’ll then select a few categories that you’d like for your trip. Thinking of flying first class? How about a butler suite in Jamaica? No matter what your ideal honeymoon entails, we’ve got a spot for you to enter the cost. Anyone who wants to make a contribution will be able to see and select one of these categories to make a gift towards.",
+    "question": "How does the registry work?"
+  },
+  {
+    "id": 4,
+    "answer": "Yes, you’ll see the amounts in each category update every time a contribution is made.",
+    "question": "Does the registry automatically update as guests contribute?"
+  },
+  {
+    "id": 5,
+    "answer": "When the first contribution is made, your registry will generate a unique gift card code for your honeymoon. You can give this code to your travel consultant whenever you’re ready to pay for your trip. You can even use the code while your registry is still open to make a down payment or make incremental payments towards your honeymoon.",
+    "question": "How will I receive/use the funds?"
+  },
+  {
+    "id": 6,
+    "answer": "We get it. That snorkeling adventure is still calling your name. Since you’ll be receiving all the contributions as one total amount, you can use the money towards any part of your honeymoon that you wish.",
+    "question": "What if I want to move money to a different category?"
+  },
+  {
+    "id": 7,
+    "answer": "Unfortunately no, but the great news is you can use the remaining balance towards another vacation with Liberty Travel. May we suggest an anniversary trip?",
+    "question": "If I don’t use all of the money gifted, can I refund any of the contributions for money back?"
+  },
+  {
+    "id": 8,
+    "answer": "Sharing is caring, that’s why we’ve made it easy for you to share your registry on any of your social media profiles. Plus, our consultants can order personalized notice cards for you to mail out with your shower or wedding invitations.",
+    "question": "How do I let my guests know I have a honeymoon registry with Liberty Travel?"
+  },
+  {
+    "id": 9,
+    "answer": "Absolutely! You’ll always have complete access to your registry to edit your profile, manage your list of categories, and check who made contributions, as well as the remaining balance.",
+    "question": "Am I able to edit my profile or registry once it’s started?"
+  },
+  {
+    "id": 10,
+    "answer": "If you need help with or have questions about this registry website, please select the Help button located below.",
+    "question": "Who do I contact if I need help with my registry website?"
+  },
+  {
+    "id": 11,
+    "answer": "If you need assistance booking your honeymoon or have questions about Liberty Travel, please call (877) 999-3199 or visit http://www.libertytravel.com/inquiry. If you need help with or have questions about this registry website, please select the Help button below.",
+    "question": "Didn’t find what you were looking for?"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Why Book With Liberty Travel",
+    "image": "assets/images/4/box_why.jpg",
+    "url": "pages/whyUs",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Why Register Your Honeymoon",
+    "image": "assets/images/4/box_benefit.jpg",
+    "url": "pages/registryBenefits",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Frequently Asked Questions",
+    "image": "assets/images/4/box_faq.jpg",
+    "url": "pages/FAQ",
+    "exploreNowButton": false
+  }
+]

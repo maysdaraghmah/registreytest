@@ -1,0 +1,54 @@
+{
+	"intro": "",
+	"sections": [
+		{
+			"imagePosition": null,
+			"image": null,
+			"title": "We want to welcome you to the Dear-Born Baby family, reward you for registering with us and say thank you for shopping at a boutique store that has been proudly serving the Greater Toronto Area since 1979.",
+			"list": null,
+			"bulk": null,
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "benefits_1.jpg",
+			"title": "A Simple & Easy Registry",
+			"list": null,
+			"bulk": "Online or in-store, you have complete control over your registry. In-store, our qualified registry consultants can guide you while using our scanner shopping system that allows you to instantly select and update your registry in real time with anything that catches your eye. Online, easily monitor and manage your gift list and enjoy the ability to check on who has purchased what! Your guests can buy online at https://registries.dearbornbaby.com, no matter where they are, 24/7, as well as in our retail store.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "benefits_2.jpg",
+			"title": "Free Two Day Shipping",
+			"list": null,
+			"bulk": "Free Two Day Shipping applies to any order within the provinces of Ontario, Quebec, Nova Scotia and New Brunswick with a minimum purchase value of $39. For all other provinces and non-remote areas, Free 3 to 5 Day Expedited Shipping applies to any order with a minimum purchase value of $39. Shipping times do not include handling times, weekends or holidays.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "benefits_3.jpg",
+			"title": "Extended Return Window",
+			"list": null,
+			"bulk": "We have relaxed our return time frame for registry customers from 30 days to 60 days from the Event Date (Baby Shower Date). All unneeded items bought on your registry can be conveniently exchanged for another item or for store credit.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "benefits_4.jpg",
+			"title": "15% Close Out Discount",
+			"list": null,
+			"bulk": "Once you have made the decision to close out the registry you will qualify for a one time 15% discount on all the remaining items on your registry (<a href='https://www.dearbornbaby.com/sale-exemptions/' target='_blank'>standard exclusions apply</a>).  To do your close out, we encourage you to make an appointment with one of our registry specialists. When you come in for your appointment, we will go through the list and help you gather everything together. All items must be at the regular price to qualify.",
+			"paragraphs": null
+		},
+		{
+			"imagePosition": null,
+			"image": "benefits_5.jpg",
+			"title": "Refer a Friend",
+			"list": null,
+			"bulk": "We would also love to get to know your friends who are expecting too!  If you refer a friend and they sign up and begin a qualifying registry with Dear-Born Baby you will receive a $25 store credit toward any eligible purchase of $100 or more at Dear-Born Baby.  You must be a current or previous registrant of Dear-Born Baby to qualify.",
+			"paragraphs": null
+		}
+	],
+	"benefitsRow": []
+}

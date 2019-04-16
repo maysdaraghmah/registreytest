@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "How does Borsheims gift registry work?",
+    "answer": "It’s easy! You can create your gift registry through our website at www.borsheims.com or in our store with the help of one of our registry consultants. Once set up the fun begins! You can add casual or formal dinnerware, barware, kitchenware, and home accessories- the choices are endless. And we will be here every step to make sure you select the right products to reflect your lifestyle and your needs."
+  },
+  {
+    "id": 2,
+    "question": "Who Should I contact if I have questions about my registry?",
+    "answer": "Borsheims has a gift registry consultant available whenever you need them. If you have any questions you can reach our registry office at 1-866-584-4140 or by email at GiftRegistry@Borsheims.com. Rest assured you are always connected to our experts after you leave our store."
+  },
+  {
+    "id": 3,
+    "question": "When will I have a copy of my Registry?",
+    "answer": "As soon as you begin! You will see your registry as soon as you add items. You can view your registry using the username and password you selected when you began your registry. Your registry is always updated in real time, so you will have access to detailed information on the status of your registry, which gifts were purchased, the ability to edit your registry, etc."
+  },
+  {
+    "id": 4,
+    "question": "How do I add items to my registry?",
+    "answer": "Borsheims.com: You can add items to your registry from a specific item’s product detail page on the Borsheims website. Simply click “add to registry.”\n Borsheims Gift Registry website: You can add items by entering the merchandise’s 9-digit alpha numeric number, or by searching/browsing the Borsheims product range on the registry website.\n Borsheims Registry App: Using our registry app, you can add items by product id, by scanning the product’s barcode, by snapping a photo of the items, or by searching/browsing the Borsheims product range."
+  },
+  {
+    "id": 5,
+    "question": "When items are purchased are they automatically updated?\n",
+    "answer": "Yes, every time a guest buys an item off your registry, online or in store, your registry is updated."
+  },
+
+  {
+    "id": 6,
+    "question": "How long will my registry be available at Borsheims?",
+    "answer": "Your registry will be available online for two years after the day of your event. After the two-year mark, you may contact our registry coordinator for any questions you may have, 1-866-584-4140."
+  },
+
+  {
+    "id": 7,
+    "question": "How does the “Chip in” feature work?",
+    "answer": "Guests are given the opportunity to simply offer cash contributions directly to items you have selected on your registry. This allows for guests to contribute to any item on your registry at any amount. This feature is available online only. Simply redeem your chip ins when you are ready."
+  },
+
+  {
+    "id": 8,
+    "question": "Are the purchases made off my registry refundable?",
+    "answer": "Yes! Borsheims offers hassle free returns. We just ask that you return your items within 90 days from your wedding date. Once returned you will receive a store credit, that has no expiration date and can be redeemed in-store and online."
+  },
+
+  {
+    "id": 9,
+    "question": "How will I be notified when a gift is purchased?",
+    "answer": "You can opt in to receive an email notification each time an item is purchased from your registry. You can enable this notification within the “Settings” tab of your registry account. You will also be able to tell what has been purchased at any time by logging into the registry website or app and viewing your registry list."
+  },
+
+  {
+    "id": 10,
+    "question": "What if an item I receive is broken upon shipment?",
+    "answer": "If you receive a broken item upon shipment, we ask that you save all internal and external packaging and please call our shipping department within 5 days from receiving your gift at 1-866-584-4140. They will then walk you thru the necessary steps to get the item replaced for you right away."
+  },
+
+  {
+    "id": 11,
+    "question": "What if I get duplicates of a gift?",
+    "answer": "If you receive duplicate items from your registry and need to return something, you can print a return receipt from your online gift registry account and return the item within 90 days for a merchandise only credit. This credit can be used anytime in store or online at Borsheims.com."
+  },
+ 
+  {
+    "id": 12,
+    "question": "How do I download the App?",
+    "answer": "In Apple, simply go to the AppStore and search for the Borsheims Gift Registry. Similarly, in Google Play search for Borsheims Gift Registry. Once downloaded, you are now able to create your registry."
+  },
+  {
+    "id": 13,
+    "question": "I’m having trouble understanding all the numbers. What does it mean “Gifts bought online”? What does it mean “Vouchers issued”? What does it mean “Remaining list balance”?",
+    "answer": "Gifts bought online: Many of your guests will purchase or chip-in for your gift through the online Gift Registry. The total value of gifts purchased or chipped in for through the online Gift Registry is provided here. You can create voucher(s) from this total and use them to redeem your gifts at your local Borsheims store. Vouchers issued: If you have requested and received one or more Vouchers, their total will be shown under this heading. This is the total of the original issuance value of the Vouchers and does not account for any spent through those Vouchers. Remaining list balance: This is the difference between ‘Gifts bought online’ and ‘Vouchers Issued’ and with its value you can create a Voucher (i.e. some gifts have not yet been converted to Vouchers). Once you choose to create a Voucher and it is issued, the “remaining list balance” should change to zero (unless more gifts have been bought for you in the meantime!)",
+    "title": "Redeeming gifts",
+    "titleId": "redeem"
+  },
+  {
+    "id": 14,
+    "question": "Can Vouchers be issued online through the Website?",
+    "answer": "YES, Vouchers can be issued through the Borsheims Gift Registry App (downloadable through the App Store or Google Play), Mobile web and website."
+  },
+  {
+    "id": 15,
+    "question": "How do I know what Vouchers I have and how much each one is worth?",
+    "answer": "Vouchers will be listed at the bottom of the My Vouchers screen within the App. Each Voucher will show an original value and the remaining balance. To use the Voucher, select it and show it to the cashier when checking out at your local Borsheims store. Vouchers may show as pending for up to twenty-four (24) hours after purchase and are not available for use in store until approved."
+  },
+  {
+    "id": 16,
+    "question": "I’m in the store and I just ordered a Voucher and it has not been issued yet?",
+    "answer": "Approving a Voucher can take up to twenty-four (24) hours. Please be sure to request the Voucher prior to visiting your local Borsheims store. If you need assistance accessing a Voucher, please send an email to: GiftRegistry@Borsheims.com. Please include the email address used for registry sign-up."
+  },
+  {
+    "id": 17,
+    "question": "How do I use a Voucher when I check out?",
+    "answer": "During checkout, simply open the App, select the Voucher you wish to use from the bottom of the My Vouchers screen and show the cashier. The cashier will then manually enter the Voucher number and other details displayed."
+  },
+  {
+    "id": 18,
+    "question": "Can I use more than one (1) Voucher at once?",
+    "answer": "Yes, multiple Vouchers can be used at the same time in store. During checkout, simply open the App, select the Voucher(s) you wish to use from the bottom of the My Vouchers screen and show them to the cashier one at a time. Note: Minimizing the number of Vouchers you request for a single store visit will expedite the checkout process. Please ensure that you request your Voucher(s) at least one (1) business day in advance of your store visit. Voucher requests made in person at Borsheims store, may not be fulfilled until the next business day."
+  },
+  {
+    "id": 19,
+    "question": "How do I check my Voucher balance?",
+    "answer": "Select “Get my Gifts” in the App and you will see the remaining balance on each Voucher. You can also see the remaining Gift Registry balance available to use for further Voucher creation. You can also check a Voucher’s balance at any time by calling 1-866-584-4140."
+  },
+  {
+    "id": 20,
+    "question": "How long does it take to get the Voucher once I request it?",
+    "answer": "Once you have requested a Voucher through the App, it will be available for use within twenty-four (24) hours. Please ensure that you request a Voucher at least one (1) business day in advance of your store visit. Voucher requests made in person in a Borsheims store, may not be fulfilled until the next business day."
+  },
+  {
+    "id": 21,
+    "question": "What fees will I be charged?",
+    "answer": "There are no fees associated with using the Voucher."
+  },
+  {
+    "id": 22,
+    "question": "Do I have to use the voucher for the specific gifts I was gifted?",
+    "answer": "No, you have the flexibility of using the Voucher for any items in your local Borsheims store. Obviously if you use the value for something not gifted to you, then you will have less value to purchase the gifts which are marked as gifted on your list."
+  },
+  {
+    "id": 23,
+    "question": "What do I do if I lose my voucher/smartphone or my registry login details are compromised?",
+    "answer": "Please call 1-866-584-4140 or by email at GiftRegistry@Borsheims.com immediately, at any time, if the Voucher details are lost or compromised."
+  },
+  {
+    "id": 24,
+    "question": "Do Voucher funds expire?",
+    "answer": "Voucher funds do not expire. Every eighteen (18) months the voucher will automatically be renewed."
+  },
+  {
+    "id": 25,
+    "question": "Why do I have more than one Voucher?",
+    "answer": "For regulatory reasons the maximum Voucher value is limited to $2000.00. If your total gifts exceed this value, multiple Vouchers are created when you request a Voucher."
+  },
+  {
+    "id": 26,
+    "question": "Do I get a plastic Voucher or physical gift card?",
+    "answer": "No, the Vouchers are electronic only."
+  },
+  {
+    "id": 27,
+    "question": "Can I exchange my Vouchers for cash instead?",
+    "answer": "No, Vouchers are not redeemable for cash, unless the balance of the Voucher is less than $5.00."
+  }
+]

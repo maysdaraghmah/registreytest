@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Why register with NFM?",
+    "url": "pages/whyUs",
+    "image": "assets/images/26/box-left.png",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Registry timeline",
+    "url": "pages/timeline",
+    "image": "assets/images/26/box-center.png",
+    "exploreNowButton": false
+  },
+  {
+    "name": "FAQ",
+    "url": "pages/FAQ",
+    "image": "assets/images/26/box-right.png",
+    "exploreNowButton": false
+  }
+]

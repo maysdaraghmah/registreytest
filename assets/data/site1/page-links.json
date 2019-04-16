@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Why Register With Us",
+    "image": "assets/images/1/box_why.jpg",
+    "url": "pages/whyUs",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Registry Benefits",
+    "image": "assets/images/1/box_benefit.jpg",
+    "url": "pages/registryBenefits",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Frequently Asked Questions",
+    "image": "assets/images/1/box_faq.jpg",
+    "url": "pages/FAQ",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Visit our website",
+    "image": "assets/images/1/box_timeline.jpg",
+    "externalUrl": "//sproutbysteves.com/",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Set Up An Appointment",
+    "image": "assets/images/1/box_appointment.jpg",
+    "url": "pages/appointment",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Registry Checklist",
+    "image": "assets/images/1/box_checklist.jpg",
+    "url": "pages/checklist",
+    "exploreNowButton": false
+  }
+]

@@ -1,0 +1,222 @@
+@import '_variables.less';
+@import '../_functions';
+
+@media (max-width: @screen-max-width-phone) {
+
+  modal-container.modal .modal-dialog.item-added-approve .modal-content .modal-body .approve-message:before{
+    background: @iconColor;
+  }
+
+  site-header .site-header-content .logo{
+   width: 200px;
+  }
+  sidebar feature.sidebar-feature .sidebar-wrapper .logo-wrapper{
+    background-image: url("@{clientImagesPath}/logo.png");
+  }
+
+  .route-wrapper.homepage .page-content{
+    height: ~'calc(100% - 55px  - 25px - 96px)';
+    min-height: ~'calc(100% - 55px  - 25px - 96px)';
+  }
+
+  home {
+    height: 100%;
+    display: block;
+    feature.home-feature{
+      height: ~'calc(100vh - 50px)';
+      background-image: url("@{clientImagesPath}/mobile/homepage_bg.jpg");
+
+
+    registry-search {
+      .registry-search-feature {
+        form,
+         .search-registry-title {
+           background: @homeSearchBoxBackgroundPhone;
+         }
+        .search-registry-section {
+          width: 98%;
+          padding-bottom: 155px;
+          margin: 20px auto;
+
+           .search-icon {
+            bottom: 30px;
+            height: 24px;
+            width: 24px;
+            font-size: 14px;
+            line-height: 26px;
+            top: auto;
+        }
+          .search-wrapper{
+            margin: 0 auto;
+            position: relative;
+            background: transparent;
+            outline: 2px solid white;
+            padding: 4px;
+
+            form,
+            .search-registry-title{
+
+              margin: 0;
+              box-sizing: content-box;
+            }
+
+            form{
+              padding: 6px 10px 30px;
+            }
+
+            .search-registry-title{
+				padding: 14px 10px 0;
+				font-weight: bold;
+				font-size: 17px;
+				.justify-content(flex-start);
+				text-align: left;
+            }
+
+            .reg-buttons-container{
+              position: absolute;
+              bottom: -200px;
+              width: 100%;
+              left: 0;
+              right: 0;
+
+              .btn{
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+    }
+
+
+
+  }
+
+  page-links {
+	  .page-link-list-item{
+		  width: 50%;
+		  padding: 0 6px;
+	  }
+
+	  .page-box {
+		  padding: 4px;
+	  }
+
+	  .page-name {
+		  font-size: 12px;
+		  bottom: 4px;
+		  width: ~'calc(100% - 8px)';
+	  }
+  }
+
+
+  navigation-links{
+      .nav-links {
+          .nav-link a{
+              .nav-link-cart-amount{
+                  background: @iconColor;
+              }
+          }
+      }
+  }
+
+  site-footer {
+    .top {
+      margin: auto;
+    }
+
+    .bottom {
+      height: auto;
+
+      ul {
+        height: auto;
+        display: block !important;
+        text-align: center;
+        padding: 10px 0 !important;
+
+        li{
+          width: 100%;
+          float: left;
+          font-size: 10px;
+
+          &:first-child{
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  registry-header {
+    .registry-header {
+      .header-registrant-name{
+        font-size: 22px;
+      }
+      .event-type-title{
+        font-size: 25px;
+      }
+    }
+  }
+  registry-benefits {
+    .static-page-section {
+      .static-section-title {
+        font-weight: 400;
+      }
+    }
+  }
+
+  timeline {
+    .timeline-title {
+      line-height: 22px;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+  }
+
+  gift-it {
+    .modal-btn {
+      width: 100%;
+    }
+  }
+
+  registry-catalog {
+    feature.registry-catalog{
+      .filtered-sorted-items-groups-list {
+        .filtered-sorted-items-groups-list-item {
+          .group-label {
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  registry-item {
+    .registry-item-wrapper {
+      .box-shadow(0 0px 1px rgba(0, 0, 0, 0.3));
+      .registry-item-box-wrapper {
+        .product-purchased-status-label{
+          padding: 2px 6px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  search-results {
+   registry-search .registry-search-feature{
+      background-position: center;
+      height: 120px;
+    }
+    .search-registry-section.header-mode {
+      .search-registry-container {
+        margin: 0;
+      }
+    }
+
+    .search-results-counter {
+      font-size: 14px;
+    }
+  }
+}
+

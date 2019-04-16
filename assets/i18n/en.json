@@ -1,0 +1,22 @@
+{
+   "ConfirmationTitle" : "Great!",
+  "ConfirmationSubtitle": "Thank you for your purchase!",
+  "ConfirmationBackToList": "Make another purchase",
+
+  "ConfirmationContentShipToMe" : "It will be on its way to you shortly. Your receipt will be emailed to you.",
+  "ConfirmationContentShipToReg" : "Your receipt will be emailed to you and a notification will be sent to the registrant(s) to let them know about your generous gift!",
+  "ConfirmationContentPickUpInStore" : "Just stop by at our store anytime to pick it up. Your receipt will be emailed to you.",
+  "ConfirmationContentContactMeForDeliveryOptions" : "",
+  "ConfirmationSubtitleContact":"Thank you for your purchase! Your receipt will be emailed to you and a notification will be sent to the registrant(s) to let them know about your generous gift!",
+
+  "RegisteredConfirmationTitle": "Great!",
+  "RegisteredConfirmationSubtitle": "Your order is confirmed. What’s next?",
+  "RegisteredConfirmationContent": "You are all set! You will receive a notification when the items are shipped.",
+  "RegisteredConfirmationBackToList": "Back to Registry",
+  
+
+  "ShipToMeDisclaimer": "",
+  "Checkout Page": "Checkout",
+
+  "Find Registry Title": "Find a Registry"
+}

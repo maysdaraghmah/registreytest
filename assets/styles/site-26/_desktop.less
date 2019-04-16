@@ -1,0 +1,97 @@
+@import '_variables.less';
+
+@media (min-width: @screen-width-desktop) {
+  search-results {
+    .result-list {
+      .header-cell {
+        font-size: 16px;
+      }
+    }
+  }
+
+  home {
+    .home-feature {
+      background-image: url("@{clientImagesPath}/homepage_bg.jpg");
+    }
+
+    registry-search {
+      .reg-buttons-container {
+        bottom: -110px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: @screen-width-large-desktop) {
+  home {
+    registry-search {
+      .search-registry-section {
+        width: 48%;
+        .search-wrapper {
+          height: 194px;
+
+          .reg-buttons-container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  //.mac {
+    .search-registry-section {
+      margin-top: 44px;
+    }
+
+    .search-wrapper {
+      height: 44% !important;
+      min-height: 150px !important;
+      margin-top: 40px;
+      padding-top: 0 !important;
+
+      .search-registry-title {
+        margin-bottom: 20px;
+        padding-top: 16px;
+      }
+    }
+
+    .page-links-list {
+      max-width: 70%;
+      margin-top: 0 !important;
+    }
+  //}
+}
+
+
+/* Retina-specific stuff  */
+//@media  only screen and (-webkit-min-device-pixel-ratio: 2),
+//only screen and ( min--moz-device-pixel-ratio: 2),
+//only screen and ( -o-min-device-pixel-ratio: 2/1),
+//only screen and ( min-device-pixel-ratio: 2),
+//only screen and ( min-resolution: 192dpi),
+//only screen and ( min-resolution: 2dppx) {
+//
+//  // .search-bar
+//  .search-registry-section {
+//    margin-top: 60px;
+//  }
+//
+//  // .find-registry-page
+//  .page-content {
+//    min-height: 74vh;
+//    padding: 0 0 200px;
+//  }
+//
+//  // .findRegistryBoxes
+//  .page-links-list {
+//    margin-top: 138px;
+//    top: 236px;
+//  }
+//}

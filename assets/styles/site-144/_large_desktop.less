@@ -1,0 +1,73 @@
+@import "_variables.less";
+@import "../_functions";
+
+@media (min-width: @screen-width-large-desktop) {
+	body {
+		home {
+			.home-feature {
+				.background-image-holder {
+					background: url("@{clientImagesPath}/hero_image.jpg");
+					background-size: cover;
+					background-repeat: no-repeat;
+					margin-bottom: -50px;
+					height: 45vw;
+					@media (min-width: 1920px){
+						margin-bottom: -100px;
+					}
+				}
+			}
+			registry-search {
+				.search-registry-section {
+					max-width: 663px;
+					width: 100%;
+					margin-left: 7%;
+				}
+				.search-input-container {
+					margin: 36px auto 46px auto;
+				}
+			}
+			checklist .bulk-text-section .header-wrapper img {
+				max-width: 375px;
+			}
+		}
+		page-links {
+			.page-link-list-item {
+				margin-bottom: 65px;
+				.page-link-anchor {
+					height: 357px;
+				}
+			}
+			.page-links-feature {
+				margin-bottom: 0;
+				.container {
+					width: 100%;
+				}
+			}
+			.page-box {
+				.page-name {
+					font-size: 18px;
+					line-height: 23px;
+				}
+			}
+		}
+
+		checkout{
+			.cvv-tooltip, .tax-tooltip{
+				bottom: 25px;
+			}
+			.tab-pane{
+				padding: 45px 240px;
+				min-height: 300px;
+			}
+		}
+	}
+}
+
+
+@media (min-width:@screen-width-x-large-desktop){
+	registry-search {
+		.search-registry-section {
+			margin-left: 15%;
+		}
+	}
+}

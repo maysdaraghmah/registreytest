@@ -1,0 +1,105 @@
+{
+	"allowCartToHoldMultipleRegitries": false,
+	"allowFacebookLoginOnGreeting": false,
+	"automaticCityProvinceRecognitionByZipCode": true,
+	"btnRegistrantCheckoutEnabledOnCart": 0,
+	"btnRegistrantRequestShippingEnabledOnCart": 0,
+	"guestCartButtons": [
+		{
+			"type": 1
+		},
+		{
+			"type": 2
+		}
+	],
+	"registeredCartButtons": [
+		{
+			"type": 5
+		},
+		{
+			"type": 6
+		}
+	],
+	"registrantCoRegistrantMobileCombined": true,
+	"isComplexZip": true,
+	"chatEnabled": true,
+	"displayTaxOnCheckoutWhenFree" : true,
+	"displayShippingOnCheckoutWhenFree" : true,
+	"externalChatLink": "https://overstock.force.com/help/apex/liveagent",
+	"olarkChatEnabled": false,
+	"checkoutTaxTooltip": true,
+	"chipInState": 1,
+	"clientSiteUrl": "https://www.overstock.com/",
+	"displayBarcode": false,
+	"displayCheckboxOnPrintedCatalog": false,
+	"displayEventTypeIconInSearchResultsList": false,
+	"displayItemImageOnPrintedCatalog": true,
+	"displyaWantedAndReceivedCounter": true,
+	"displayRegistryItemsAsOneList": false,
+	"zendeskChatEnabled": false,
+	"displayCVVOnExternalPurchase": false,
+	"defaultPurchasedStatusFilterType": 0,
+	"estimatedProvisionForSalesTax": false,
+	"eventFieldWhichEventImagesPathBasedOn": 1,
+	"externalLoginEnabled": true,
+	"externalLoginUrl" : "https://www.overstock.com/login?redirect_url=https://registryqa.overstock.com/registered",
+	"firstSortEventsSearchResultsByField": "Date",
+	"giftItState": 1,
+	"guestTopPicksState": 0,
+	"hasStoredValue": false,
+	"outOfStock": false,
+	"imagePrefixURLForCatalgPage": "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+	"jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": true,
+	"jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": false,
+	"kioskModeState": 0,
+	"passwordPattern": "^.{6,}$",
+	"passwordPatternErrorMessage": "Password must be at least 6 characters.",
+	"printRegistryItemsListOption": true,
+	"purchasedInStoreState": 1,
+	"searchResultFields": [
+		1,
+		2,
+		3,
+		4
+	],
+	"shipToMeDisclaimerState": 1,
+	"sortRegistryState": 1,
+	"useExternalPurchaseWhenCartDoesntContainChippedInItem": true,
+	"cartGrid": {
+		"bodyColumns": {
+			"itemImage": true,
+			"itemTitle": true,
+			"price": true,
+			"quantity": true,
+			"total": true,
+			"remove": true
+		},
+		"headerColumns": [
+			"Item",
+			"",
+			"Price",
+			"Quantity",
+			"Total",
+			""
+		],
+		"isHeader": "true"
+	},
+	"hasTax": true,
+	"registryCarouseLinks": true,
+	"twoStepsEventRegistry": false,
+	"eventOwnerPhoneRequired": false,
+	"showBabyDueDate": true,
+	"showNumberOfGuests": false,
+	"sortByCategoryOrder": false,
+	"babyListID": 6,
+	"displayUsernameOnLogoutLink": false,
+	"hasBrandCategory": true,
+	"hasHomePageNavBarSection": true,
+	"barcodeDigitsNumber": 8,
+	"navigateAfterLogout":"https://www.overstock.com/logout",
+	"showNotificationBanners": false,
+	"showProductSalePrice": false,
+	"isZipCodeRequired":true,
+	"categoriesLinksNavbarWithDropdown": true,
+	"addGiftsMobileSlider": 0
+}

@@ -1,0 +1,89 @@
+@import '_variables.less';
+@import '../_functions';
+@media (min-width: @screen-min-width-tablets) {
+    site-header {
+        .logo{
+            width: 320px;
+        }
+    }
+
+
+    home {
+        registry-search {
+            /************this part calaculate the position of the search box in home page******************/
+            @homepageBackgroundFixedHeight: 374px;
+            @homepageBackgroundFixedWidth: 768px;
+            @heightWidthHomepageBackgroundRatio: @homepageBackgroundFixedHeight / @homepageBackgroundFixedWidth;
+            @homepageBackgroundHeight: (@heightWidthHomepageBackgroundRatio * 100vw);
+            @searchBoxMarginTopBottom:  auto;
+            /************************************************************************************************/
+            .registry-search-feature {
+                height: @homepageBackgroundHeight;
+            }
+
+            .search-wrapper {
+                padding: 0;
+                background: none;
+            }
+
+            .search-input-container {
+                background: white;
+                padding: 20px 70px 12px;
+                margin: 0;
+                box-sizing: content-box;
+            }
+
+            .search-icon {
+                margin-top: 20px;
+                margin-right: 70px;
+            }
+
+            .reg-buttons-container {
+                background: white;
+                padding: 22px 70px 50px 70px;
+                background: @homeSearchBoxBackgroundTabletDesktop;
+                margin-top: 4px;
+                .flex-display();
+                .justify-content(space-between);
+
+                .btn {
+                    width: 49%;
+                    font-size: 14px;
+                    height: 45px;
+                    line-height: 45px;
+
+                    &.btn-primary {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .search-registry-section {
+                width: 41%;
+                min-width: 560px;
+                max-width: 750px;
+                padding: 10px;
+                border: 3px solid white;
+                margin: @searchBoxMarginTopBottom;
+            }
+
+			.search-registry-title {
+				background: white;
+				padding: 44px 70px 0;
+				margin: 0;
+				font-size: 28px;
+				font-weight: bold;
+			}
+        }
+    }
+}
+
+.tablet {
+    .route-wrapper {
+         &.homepage {
+            .page-content {
+                min-height: ~'calc(100% - 130px)';
+            }
+        }
+    }
+}

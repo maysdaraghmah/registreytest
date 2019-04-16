@@ -1,0 +1,100 @@
+@import '_variables.less';
+@import '../../_functions';
+
+@media (min-width: @screen-min-width-tablets) {
+	setup-event {
+		.setup-event-feature {
+			background-image: url('/assets/images/155/registered/event-registry.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.setup-event-title {
+			margin: 30px 0;
+			font-size: 36px;
+			font-weight: 600;
+		}
+		.custom-dropdown {
+			.custom-dropdown-list{
+				top: 20px;
+			}
+		}
+	}
+
+	event-registry {
+		.event-registry {
+			width: 645px;
+		}
+
+		.step-one-section,
+		.step-two-content {
+			padding: 12px 20px 40px;
+		}
+
+		.event-form-title {
+			line-height: 22px;
+			margin: 27px 0 31px;
+			font-size: 18px;
+			font-weight: 400;
+		}
+
+		.co-registrant-title {
+			margin-top: 10px;
+		}
+
+		.form-group {
+			margin-bottom: 12px;
+		}
+
+		.form-input,
+		.custom-dropdown {
+			width: 318px;
+		}
+
+		.form-input {
+			height: 18px;
+			line-height: initial;
+		}
+
+		.form-label {
+			margin-bottom: 4px;
+			padding-right: 24px;
+			font-size: 16px;
+
+			&:after {
+				display: inline-block;
+			}
+		}
+
+		.event-submit-btn {
+			float: right;
+			width: 232px;
+			height: 44px;
+			margin-right: 87px;
+			cursor: pointer;
+		}
+
+		.custom-dropdown-toggle {
+			height: 16px;
+			line-height: 6px;
+
+			.caret {
+				display: block;
+				width: 16px;
+				height: 16px;
+				margin-top: -10px;
+				background-image: url('/assets/images/155/icons/triangle-down.png');
+				background-repeat: no-repeat;
+				border: none;
+			}
+		}
+
+		.registrant-details {
+			.form-input {
+				.placeholder({
+					color: transparent
+				});
+			}
+		}
+	}
+}

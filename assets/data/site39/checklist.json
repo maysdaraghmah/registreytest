@@ -1,0 +1,158 @@
+{
+  "downloadButton": null,
+  "printButton": true,
+  "text": null,
+  "listView": [
+    {
+      "title": "Judaica",
+      "list": [
+        "Bentcher Holder",
+        "Candle Tray",
+        "Candlesticks",
+        "Challah Board",
+        "Challah Cover",
+        "Challah Knife",
+        "Havdalah Set",
+        "Kiddush Cup",
+        "Kosher Lamp",
+        "Mayim Achronim",
+        "Mezuzah Holders",
+        "Prayers (Al Hamichya, Candle Lighting Etc.)",
+        "Tzedaka Box",
+        "Washing Cup"
+      ]
+    },
+    {
+      "title": "Holidays",
+      "list": [
+        "Esrog Box",
+        "Honey Dish",
+        "Matzah Tray",
+        "Menorah",
+        "Seder Plate"
+      ]
+    },
+    {
+      "title": "Linen Closet",
+      "list": [
+        "Bath Towels",
+        "Hand Towels",
+        "Pillows & Blankets"
+      ]
+    },
+    {
+      "title": "Tabletop",
+      "list": [
+        "Bowls",
+        "Cake Stands",
+        "Centerpieces",
+        "Condiment Dish",
+        "Dip Bowls",
+        "Dessert Plates",
+        "Ice Bucket",
+        "Napkin Holder",
+        "Napkin Rings",
+        "Pitchers",
+        "Platters",
+        "Salt & Pepper",
+        "Serving Utensils",
+        "Trays",
+        "Trivet",
+        "Vases"
+      ]
+    },
+    {
+      "title": "Kitchen Electronics",
+      "list": [
+        "Apron",
+        "Blech",
+        "Bosch",
+        "Coffee Machine",
+        "Crock Pot",
+        "Food Processor",
+        "Grill",
+        "Blender",
+        "Hand Mixer",
+        "Hot Water Urn",
+        "Kitchen Aid",
+        "Mitts",
+        "Toaster Oven"
+      ]
+    },
+    {
+      "title": "Storage & Organization",
+      "list": [
+        "Bag Dispenser",
+        "Baskets",
+        "Canisters & Containers",
+        "Cutlery Tray",
+        "Paper Towel Holder"
+      ]
+    },
+    {
+      "title": "Bakeware & Cookware",
+      "list": [
+        "Baking Pans & Sheets",
+        "Casserole & Bakers",
+        "Cookbooks",
+        "Cookware Set",
+        "Cooling Rack",
+        "Measuring Cups & Spoons",
+        "Mixing Bowls",
+        "Muffin & Cupcake Pans",
+        "Pie Dishes",
+        "Spoon Rest",
+        "Trivets"
+      ]
+    },
+    {
+      "title": "Dining",
+      "list": [
+        "Dinnerware",
+        "Flatware",
+        "Stemware",
+        "Tablecloths & Napkins",
+        "Wine Decanter"
+      ]
+    },
+    {
+      "title": "Bathroom",
+      "list": [
+        "Bath Mat",
+        "Cotton Ball Holder",
+        "Scale",
+        "Soap Dispenser",
+        "Soap Dish",
+        "Tissue Box",
+        "Toothbrush Holder",
+        "Towel Stand",
+        "Tumbler",
+        "Wastebasket"
+      ]
+    },
+    {
+      "title": "Home Accents",
+      "list": [
+        "Frames",
+        "Magazine Rack",
+        "Ring Holder"
+      ]
+    },
+    {
+      "title": "Gadgets & Tools",
+      "list": [
+        "Colander",
+        "Cookbook Holder",
+        "Corkscrew Lever",
+        "Cutting Boards",
+        "Garlic Press",
+        "Ice Cream Scoop",
+        "Knives & Peelers",
+        "Salad Spinner",
+        "Spatulas",
+        "Spice Rack",
+        "Whisks"
+      ]
+    }
+  ]
+}

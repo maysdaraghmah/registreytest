@@ -1,0 +1,131 @@
+@import '_variables.less';
+@import '../_functions';
+@media (min-width: @screen-min-width-tablets) {
+    search-results {
+        registry-search {
+            .search-registry-section {
+                padding: 4px;
+                .search-registry-container {
+                    outline: 1px solid white;
+                    border: 5px solid transparent;
+                    .search-wrapper {
+                        padding: 10px 30px;
+                    }
+                    .search-input-container {
+                        margin-top: 9px;
+                    }
+                }
+            }
+        }
+
+      .result-list {
+        .header-cell,
+        .results-cell {
+          &.event-type {
+            width: 25%;
+          }
+
+          &.event-registrant,
+          &.event-coregistrant {
+            width: 25%;
+          }
+        }
+      }
+    }
+    page-links {
+        display: block;
+        .page-box {
+            .page-name {
+                height: 60px;
+                line-height: 60px;
+            }
+        }
+    }
+    home {
+        registry-search {
+            /************this part calaculate the position of the search box in home page******************/
+            @homepageBackgroundFixedHeight: 472px;
+            @homepageBackgroundFixedWidth: 1366px;
+            @heightWidthHomepageBackgroundRatio: @homepageBackgroundFixedHeight / @homepageBackgroundFixedWidth;
+            @homepageBackgroundHeight: (@heightWidthHomepageBackgroundRatio * 100vw);
+            @searchBoxMarginTopBottom: auto 5% auto auto;
+            /************************************************************************************************/
+            .registry-search-feature {
+                height: @homepageBackgroundHeight;
+            }
+            .search-registry-section {
+                width: 41%;
+                min-width: 560px;
+                max-width: 750px;
+                padding: 10px;
+                border: 3px solid white;
+                margin: @searchBoxMarginTopBottom;
+                .search-input-container {
+                    background: white;
+                    padding: 20px 70px 12px;
+                    margin: 0;
+                    box-sizing: content-box;
+                    .search-icon {
+                        margin-top: 20px;
+                        margin-right: 70px;
+                    }
+                }
+                .search-registry-title {
+                    background: white;
+                    padding: 22px 70px 0;
+                    margin: 0;
+                    font-size: 25px;
+                }
+                .search-wrapper {
+                    padding: 0;
+                    background: none;
+                    .reg-buttons-container {
+                        background: white;
+                        padding: 22px 70px !important;
+                        margin-top: 2px;
+                        .flex-display();
+                        .justify-content(space-between);
+                        .btn {
+                            width: 49%;
+                            font-size: 14px;
+                        }
+                        .btn.btn-primary {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    site-footer {
+        .bottom {
+            ul {
+                li {
+                    float: left;
+                    width: auto;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+    .static-page-feature {
+        .static-page-header {
+            margin-bottom: 65px;
+
+            .static-page-header-title {
+                font-size: 36px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+.tablet {
+    .route-wrapper {
+        &.for-homepage {
+            .page-content {
+                min-height: ~'calc(100% - 96px)';
+            }
+        }
+    }
+}

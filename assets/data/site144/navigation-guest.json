@@ -1,0 +1,136 @@
+{
+	"logo": {
+		"desktop": "assets/images/144/logo.png",
+		"mobile": "assets/images/144/logo.png"
+	},
+	"topHeaderLinks": [
+		{
+			"title": "Store Info",
+			"url": "/Stores",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Return to Dear-Born Baby",
+			"url": null,
+			"externalUrl": "https://www.dearbornbaby.com",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Sign In",
+			"type": "login",
+			"url": "/registered/login",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Logout",
+			"url": null,
+			"type": "logout",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Your Cart",
+			"url": null,
+			"type": "cart",
+			"amount": null,
+			"icon": "assets/images/144/icons/cart.svg",
+			"isInKioskMode": true,
+			"hide":false
+		}
+	],
+	"jifitiLegal": {
+		"externalUrl": "https://www.jifiti.com",
+		"imageSrc": "/assets/images/jifiti_logo_grey.svg"
+	},
+	"copyright": {
+		"url": null,
+		"title": "Copyright © 2019"
+	},
+	"termsAndConditions": {
+		"url": "/pages/TermsAndConditions",
+		"title": "Terms & Conditions"
+	},
+	"mobileMenuLinks": [
+		{
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/144/sidebar-icons/home.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/144/sidebar-icons/search.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Create a Registry",
+			"url": "/registered",
+			"icon": "assets/images/144/sidebar-icons/add.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Manage My Lists",
+			"url": "/registered",
+			"icon": "assets/images/144/sidebar-icons/list-view.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "Store Info",
+			"url": "/Stores",
+			"icon": "assets/images/144/sidebar-icons/info.svg",
+			"type": "static",
+			"isInKioskMode": false
+		},
+		{
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/144/sidebar-icons/faq_icon.svg",
+			"type": "static",
+			"isInKioskMode": false
+		}
+	],
+	"footerLinks": [
+		{
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Create a Registry",
+			"url": "/registered",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Manage Your Registry",
+			"url": "/registered",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "Store Info",
+			"url": "/Stores",
+			"type": "static",
+			"isInKioskMode": true
+		},
+		{
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "static",
+			"isInKioskMode": true
+		}
+	]
+}

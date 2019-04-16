@@ -1,0 +1,332 @@
+{
+	"guests":{
+		"headerLinks": [
+		  {
+			"title": "Home",
+			"url": null,
+			"externalUrl": "https://www.nfm.com/giftcreditkioskhp",
+			"type": "Static",
+			"isInKioskMode": true,
+			"onlyInKioskMode": true
+		  },
+		  {
+			"title": "Stores",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Return to NFM",
+			"url": null,
+			"externalUrl": "https://www.nfm.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/26/icons/cart.svg",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/registered",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Stores",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		],
+
+		"mobileAppsLinks": [
+		  {
+			"imageSrc": "https://borsheimsqa.jifiti.com/images/nfm/app_store_btn.svg",
+			"url": "https://itunes.apple.com/us/app/nfm/id1330788812?mt=8"
+		  },
+		  {
+			"imageSrc": "https://borsheimsqa.jifiti.com/images/nfm/google_play_btn.png",
+			"url": "https://play.google.com/store/apps/details?id=com.nfm.registry"
+		  }
+		],
+
+		"jifitiLegal": {
+		  "url": "https://gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/26/powered_by_jifiti.svg",
+		  "text": "All rights reserved."
+		},
+		"copyright": {
+		  "text": "Copyright © 2018 Jifiti.com"
+		},
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+		"giftRegistryService": {
+		  "url": "https://gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Store Info",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"icon": "assets/images/icons/store_icon.png",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  },
+	"couples":{
+		"headerLinks": [
+		  {
+			"title": "Home",
+			"url": null,
+			"externalUrl": "https://www.nfm.com/giftcreditkioskhp",
+			"type": "Static",
+			"isInKioskMode": true,
+			"onlyInKioskMode": true
+		  },
+		  {
+			"title": "Stores",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Return to NFM",
+			"url": null,
+			"externalUrl": "https://www.nfm.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/26/icons/cart.svg",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered/#/eventpage",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/Registered",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Stores",
+			"url": null,
+			"externalUrl": "/Registered/#/stores",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		],
+
+		"mobileAppsLinks": [
+		  {
+			"imageSrc": "https://borsheimsqa.jifiti.com/images/nfm/app_store_btn.svg",
+			"url": "https://itunes.apple.com/us/app/nfm/id1330788812?mt=8"
+		  },
+		  {
+			"imageSrc": "https://borsheimsqa.jifiti.com/images/nfm/google_play_btn.png",
+			"url": "https://play.google.com/store/apps/details?id=com.nfm.registry"
+		  }
+		],
+
+		"jifitiLegal": {
+		  "url": "//gifts.jifiti.com/",
+		  "imageSrc": "/assets/images/26/powered_by_jifiti.svg",
+		  "text": "All rights reserved."
+		},
+		"copyright": {
+		  "text": "Copyright © 2018 Jifiti.com"
+		},
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+		"giftRegistryService": {
+		  "url": "//gifts.jifiti.com/",
+		  "text": "Gift Registry Software."
+		},
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Store Info",
+			"url": null,
+			"externalUrl": "/registered/#/stores",
+			"icon": "assets/images/icons/store_icon.png",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "FAQ",
+			"url": "/pages/FAQ",
+			"icon": "assets/images/icons/faq_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  }
+}

@@ -1,0 +1,186 @@
+{
+	"logo": {
+		"desktop": "assets/images/155/registry_logo_full.svg",
+		"mobile": "assets/images/155/logo.svg"
+	},
+	"topHeaderLinks": [
+		{
+			"title": "Gift Cards",
+			"url": "https://www.overstock.com/gift-cards#/shop-gift-cards",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Club O",
+			"url": "https://www.overstock.com/club-o-rewards-program",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Store Credit Card",
+			"url": "https://www.overstock.com/storecard",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Return to Overstock",
+			"url": "https://www.overstock.com/",
+			"type": "externalUrl"
+		},
+		{
+			"title": "Sign Out",
+			"url": "",
+			"type": "logout"
+		}
+	],
+	"siteHeaderLinks": [
+		{
+			"title": "Add Gifts",
+			"url": "/registered/categories"
+		},
+		{
+			"title": "Manage List",
+			"url": "/registered/manageList"
+		},
+		{
+			"title": "Edit Settings",
+			"url": "/registered/settings"
+		},
+		{
+			"title": "Share List",
+			"url": null,
+			"type": "share-list"
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"type": "guest-list"
+		},
+		{
+			"title": "Change List",
+			"url": null,
+			"type": "change-list",
+			"submenu":[]
+		},
+		{
+			"title": "Get My Gifts",
+			"url": null,
+			"submenu": [
+				{
+					"title": "Use In-Store Credit",
+					"url": "/registered/vouchers"
+				},
+				{
+					"title": "Ship to Me",
+					"url": "/registered/ship-to-me"
+				}
+			]
+		}
+	],
+	"mobileMenuLinks": [
+		{
+			"title": "Home",
+			"url": "registered/home",
+			"icon": "assets/images/155/icons/home-simple.svg"
+		},
+		{
+			"title": "Add Gifts",
+			"url": "registered/categories",
+			"icon": "assets/images/155/icons/addGiftsIcon.svg"
+		},
+		{
+			"title": "Manage My Lists",
+			"url": "registered/manageList",
+			"icon": "assets/images/155/icons/list-view.svg",
+			"display": false,
+			"type":"change-list",
+			"submenu": [
+				{
+					"title": "Create A New List",
+					"url": "registered/event",
+					"icon":"assets/images/155/icons/add.svg"
+				}
+			]
+		},
+		{
+			"title":"Gift Tracker",
+			"url": "registered/giftTracker",
+			"icon": "assets/images/155/icons/love-card.svg"
+		},
+		{
+			"title": "Settings",
+			"url": "registered/settings",
+			"icon": "assets/images/155/icons/settings.svg"
+		},
+		{
+			"title": "Get My Gifts",
+			"url": null,
+			"icon": "assets/images/155/icons/get_gifts_icon.svg",
+			"display": false,
+			"submenu": [
+				{
+					"title": "Use In-Store Credit",
+					"url": "registered/vouchers",
+					"icon":"assets/images/155/icons/instore_credit.svg"
+				},
+				{
+					"title": "Ship to Me",
+					"url": "registered/shipToMe",
+					"icon":"assets/images/155/icons/ship_to_me.svg"
+				}
+			]
+		},
+		{
+			"title": "Chat With Us",
+			"url": "registered/chat",
+			"icon": "assets/images/155/icons/chat_with_us_icon.svg",
+			"type": "chat"
+		},
+		{
+			"title": "View List As Guest",
+			"url": null,
+			"icon": "assets/images/155/icons/view_as_guest.svg",
+			"type":"guest-list"
+		}
+	],
+	"navTabsTitle": [
+		{
+			"id": 1,
+			"active": true,
+			"label": "Profile"
+		},
+		{
+			"id": 2,
+			"active": false,
+			"label": "Shipping Address"
+		},
+		{
+			"id": 3,
+			"active": false,
+			"label": "Event Details"
+		},
+		{
+			"id": 4,
+			"active": false,
+			"label": "Co-Registrant"
+		},
+		{
+			"id": 5,
+			"active": false,
+			"label": "Registry Info"
+		}
+	],
+	"jifitiLegal": {
+		"externalUrl": "https://www.jifiti.com",
+		"imageSrc": "/assets/images/jifiti_logo_grey.svg"
+	},
+	"copyright": {
+		"url": null,
+		"title": "Copyright © 2019"
+	},
+	"termsAndConditions": {
+		"url": "/pages/TermsAndConditions",
+		"title": "Terms & Conditions"
+	},
+	"chatWithUs": {
+		"url": null,
+		"title": "Chat With Us"
+	}
+}

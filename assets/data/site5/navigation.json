@@ -1,0 +1,207 @@
+{
+	"guests":{
+		"headerLinks": [
+		  {
+			"title": "Return to spearmintLOVE",
+			"url": null,
+			"externalUrl": "http://www.spearmintlove.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Manage my Registry",
+			"url": null,
+			"externalUrl": "/registered/index.html",
+			"type": "Static",
+			"isInKioskMode": true
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {},
+
+		"copyright": {},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  },
+	"couples":{
+		"headerLinks": [
+		  {
+			"title": "Return to spearmintLOVE",
+			"url": null,
+			"externalUrl": "http://www.spearmintlove.com/",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Login",
+			"url": null,
+			"externalUrl": "/registered/#/login",
+			"type": "Login",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Logout",
+			"url": null,
+			"externalUrl": "/registered/#/manageList",
+			"type": "Logout",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Your cart",
+			"url": "",
+			"type": "Cart",
+			"amount": null,
+			"image": "assets/images/icons/cart.png",
+			"isInKioskMode": true
+		  }
+		],
+
+		"footerLinks": [
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered/#/eventpage",
+			"type": "Static",
+			"isInKioskMode": true
+		  },
+		  {
+			"title": "Manage Your Registry",
+			"url": null,
+			"externalUrl": "/Registered",
+			"type": "Static",
+			"isInKioskMode": true
+		  }
+		],
+
+		"mobileAppsLinks": [],
+
+		"jifitiLegal": {},
+
+		"copyright": {},
+
+		"termsAndConditions": {
+		  "url": "/pages/TermsAndConditions",
+		  "text": "Terms & Conditions"
+		},
+
+		"giftRegistryService": {},
+
+		"mobileMenuLinks": [
+		  {
+			"title": "Home",
+			"url": "/",
+			"icon": "assets/images/icons/home_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Find a Registry",
+			"url": "/",
+			"icon": "assets/images/icons/search_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Create a Registry",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/create_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  },
+		  {
+			"title": "Manage List",
+			"url": null,
+			"externalUrl": "/registered",
+			"icon": "assets/images/icons/manage_icon.png",
+			"type": "Static",
+			"isInKioskMode": false
+		  }
+		]
+	  }
+
+}

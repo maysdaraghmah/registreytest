@@ -1,0 +1,101 @@
+{
+  "allowCartToHoldMultipleRegitries" : false,
+  "allowFacebookLoginOnGreeting": false,
+
+  "btnRegistrantCheckoutEnabledOnCart": 0,
+  "btnRegistrantRequestShippingEnabledOnCart": 0,
+
+  "guestCartButtons": [
+    {
+      "type": 1
+    },
+    {
+      "type": 2
+    },
+    {
+        "type": 3
+    }
+  ],
+
+  "registeredCartButtons": [
+    {
+      "type": 5
+    },
+    {
+      "type": 6
+    }
+  ],
+	"registrantCoRegistrantMobileCombined": false,
+
+
+  "chatEnabled" : true,
+  "checkoutTaxTooltip": false,
+  "chipInState": 1,
+	"clientSiteUrl": "",
+  "defaultPurchasedStatusFilterType": 3,
+
+  "displayBarcode" : false,
+  "displayCheckboxOnPrintedCatalog": false,
+  "displayEventTypeIconInSearchResultsList": true,
+  "displayItemImageOnPrintedCatalog": true,
+  "displyaWantedAndReceivedCounter" : true,
+  "displayRegistryItemsAsOneList" : false,
+
+  "estimatedProvisionForSalesTax": false,
+
+   "eventFieldWhichEventImagesPathBasedOn" : 1,
+   "firstSortEventsSearchResultsByField" : "Date",
+
+  "giftItState": 1,
+  "guestTopPicksState": 1,
+  "hasStoredValue": true,
+
+  "imagePrefixURLForCatalgPage" : "https://res.cloudinary.com/jifiti/image/fetch/f_auto,q_80,w_350,h_350,c_fit/",
+
+  "outOfStock": false,
+  "jifitiIsTheMerchantOfRecordWhenCartContainsChippedInItem": true,
+  "jifitiIsTheMerchantOfRecordWhenCartDoesntContainChippedInItem": true,
+
+  "kioskModeState": 1,
+
+  "passwordPattern": "^(?=.*[0-9])(?=.*[a-z])([a-z0-9_-]+){6,}$",
+  "passwordPatternErrorMessage": "Password must contain at least 6 characters, one letter and one number.",
+
+  "printRegistryItemsListOption" : true,
+  "purchasedInStoreState": 0,
+  "searchResultFields": [1,2,3,4],
+  "shipToMeDisclaimerState": 1,
+  "sortRegistryState" : 1,
+
+  "useExternalPurchaseWhenCartDoesntContainChippedInItem": false,
+
+
+  "cartGrid": {
+      "bodyColumns" :
+      {
+          "itemImage": true,
+          "itemTitle": true,
+          "price": true,
+          "quantity": true,
+          "total": true,
+          "remove": true
+      },
+
+      "headerColumns": ["Item", "","Price","Quantity", "Total", ""],
+      "isHeader" : "true"
+  },
+  "hasTax" : true,
+  "twoStepsEventRegistry": false,
+  "registryCarouseLinks": false,
+  "eventOwnerPhoneRequired": true,
+  "showBabyDueDate": false,
+  "showNumberOfGuests": true,
+  "babyListID": null,
+  "displayUsernameOnLogoutLink": true,
+  "barcodeDigitsNumber": 8,
+  "categoriesLinksNavbarWithDropdown": false,
+  "addGiftsMobileSlider": 1
+}
+
+
+

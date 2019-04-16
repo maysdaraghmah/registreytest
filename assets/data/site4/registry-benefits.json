@@ -1,0 +1,20 @@
+{
+  "intro": "If an unforgettable honeymoon filled with a lifetime of memories is at the top of your wish list, you’ve come to the right place. A honeymoon registry is for the couple that values experiences above all else, or for those who have already built a home together and want to start the next exciting chapter in their lives with an adventure.",
+
+  "sections": [
+    {
+      "imagePosition": "left",
+      "imagesList" : ["benefits-page1.jpg", "benefits-page2.jpg", "benefits-page3.jpg"],
+      "image": "",
+      "title": "Plus, Liberty Travel’s Honeymoon Registry has great perks:",
+      "list": ["Cuddle up with your love and create your very own honeymoon registry website. Think about your ideal honeymoon, then select the categories that you wish to receive contributions towards. From flights and suites to sightseeing and spa, you can choose as many as you like.", "It’s easy and convenient for your guests. They’ll be able to make contributions to your honeymoon online.", "You can keep track of your guests’ contributions, making it easy to fill out those thank you cards.", "Want to move some money around to splurge on a private winery tour ? No problem! You can use the amount gifted towards any part of your trip.", "If your wedding is in the fall, but you’d rather wait to visit Hawaii in the spring, no worries! Use your honeymoon registry money at any time.", "Haven’t booked your honeymoon yet ? That’s alright, go ahead and register.Your guests’ contributions can help you plan and budget for your trip, and you can visit Liberty Travel when you're ready to start planning.", "Best of all, registering helps make your ideal honeymoon even more affordable."],
+      "bulk": "",
+      "paragraphs": null,
+      "endParagraphs": ["Let Liberty Travel and your guests give you the gift of an unforgettable honeymoon. Get started by creating your registry below."]
+    }
+  ],
+  "button": {
+    "link": "/registered",
+    "text": "Get started"
+  }
+}

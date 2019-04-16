@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>babyshower_icon_mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <filter x="-10.6%" y="-10.6%" width="121.2%" height="121.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="8" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175866168 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_add_gifts_baby_shower" transform="translate(-120.000000, -52.000000)">
+            <g id="babyshower_icon_mobile" transform="translate(120.000000, 52.000000)">
+                <g id="Group-7">
+                    <g id="AdobeStock_45973335_Preview">
+                        <g id="icon">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="#F8C3DA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Group-(2)" mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(26.000000, 26.000000)" id="Path">
+                                    <polygon points="24.5 18.6666667 22.1666667 18.6666667 22.1666667 22.1666667 18.6666667 22.1666667 18.6666667 24.5 22.1666667 24.5 22.1666667 28 24.5 28 24.5 24.5 28 24.5 28 22.1666667 24.5 22.1666667"></polygon>
+                                    <path d="M11.3855,9.74055833 C11.1393333,9.45239167 10.7706667,9.300725 10.3891667,9.33805833 C10.0123333,9.374225 9.67516667,9.591225 9.48733333,9.92139167 L4.82066667,18.0881167 C4.61416667,18.4497833 4.61533333,18.8931167 4.82416667,19.25245 C5.033,19.6117833 5.418,19.83345 5.83333333,19.83345 L17.5,19.83345 C17.9561667,19.83345 18.3691667,19.56745 18.5593333,19.15445 C18.7495,18.7402833 18.6818333,18.2537833 18.3855,17.9072833 L11.3855,9.74055833 Z"></path>
+                                    <path d="M2.33333333,2.33333333 L24.5,2.33333333 L24.5,16.3333333 L26.8333333,16.3333333 L26.8333333,1.16666667 C26.8333333,0.522666667 26.3118333,0 25.6666667,0 L1.16666667,0 C0.5215,0 0,0.522666667 0,1.16666667 L0,25.6666667 C0,26.3106667 0.5215,26.8333333 1.16666667,26.8333333 L16.3333333,26.8333333 L16.3333333,24.5 L2.33333333,24.5 L2.33333333,2.33333333 Z"></path>
+                                    <path d="M18.6666667,10.5 C19.9553667,10.5 21,9.45533167 21,8.16666667 C21,6.87800167 19.9553667,5.83333333 18.6666667,5.83333333 C17.3779667,5.83333333 16.3333333,6.87800167 16.3333333,8.16666667 C16.3333333,9.45533167 17.3779667,10.5 18.6666667,10.5 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(16.941176, 27.921569)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

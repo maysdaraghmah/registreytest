@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "answer": "Call us directly at 563-690-1500 or email sprout@stevesace.com with any questions or concerns",
+    "question": "Who should I contact if I have any questions or problems?"
+  },
+  {
+    "id": 2,
+    "question": "How does the gift registry work?",
+    "answer": "It’s easy! You can open your gift registry through our website at www.sproutbysteves.com or in store with the help of one of our associates. To ensure an expert is available, we recommend making an appointment for an in-store registry. During this appointment, the associate will guide you through Sprout, helping you create your gift list. From car seats to strollers, diaper bags to bottles, the associate will help you make choices that reflect your lifestyle and your needs."
+  },
+  {
+    "id": 3,
+    "question": "When items are purchased, is my registry automatically updated?",
+    "answer": "Yes, every time guests buy items in your registry, be it online or in store, your registry is updated."
+  },
+  {
+    "id": 4,
+    "question": "Can guests deposit money in my gift registry?",
+    "answer": "Absolutely! We always recommend that guests offer a cash contribution directly to your registry, especially if they don’t find anything on your list within their price range, or if the gift they chose was less expensive than they thought. Guests are always happy to be able to offer you the full amount of money they had planned for you by depositing the difference in your registry."
+  },
+  {
+    "id": 5,
+    "question": "Are the purchases made off the registry refundable",
+    "answer": "No, they are not. However, we do offer store credit which can be used in our store, for all our items. If you wish to exchange a gift that was given, our associates will be glad to help you out. Remember that all items must be returned in their original packaging and that exchanges and credits are not possible for special orders. Your credit will be put on a gift card."
+  },
+  {
+    "id": 6,
+    "question": "How do we let our guests know that we have entrusted our gift registry to Sprout?",
+    "answer": "When you open your gift registry, we will offer you little notice cards. These cards can be sent along with the shower invitations. Not only are these cards adorable, they delicately inform your family and friends that you have selected a gift list using the Sprout gift registry service."
+  },
+  {
+    "id": 7,
+    "question": "Can I have my gifts delivered?",
+    "answer": "Yes. Delivery is $8, and shoppers have the option to pay to have your gift delivered locally (within 10 miles) to your home."
+  },
+  {
+    "id": 8,
+    "question": "How can I edit my contact details in my gift registry?",
+    "answer": "You can access your account online and edit your profile. Just log into your registry and select “Edit Settings”. You can also call Sprout at any time, and we will gladly help you with any changes."
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "intro": "",
+
+  "sections": [
+    {
+      "imagePosition": "left",
+      "image": null,
+      "title": "WHY REGISTER AT BORSHEIMS?",
+      "list": [
+        "Complimentary engraved tray, with monogram or last name, upon registry creation",
+        "Complimentary Borsheims $50.00 gift card for creating a registry",
+        "One time 10% discount on remaining registry items, online and in store",
+        "Free shipping over $100",
+        "Chip In feature for guests",
+        "Vast selection of renown designers and independent artists to choose from",
+        "Complimentary gift wrap",
+        "Hassel free returns",
+        "Expert Registry Consultants",
+        "National delivery options",
+        "Registry completion program",
+        "Thank you report that lists gifts purchased and by whom"
+      ],
+      "bulk": null,
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "left",
+      "image": "benefits-page1.jpg",
+      "title": null,
+      "list": null,
+      "bulk": "In store or online, it is our pleasure to help you celebrate Everything! Borsheims is the perfect destination for your gift registry. We work to create an experience that is fun and simple. Our registry associates will work with you and yours to assemble a registry that is reflective of both you and your partners combining (sometimes colliding) styles. Our Borsheims registry team will work hand in hand with your guests to ensure items are purchased, wrapped and shipped in a quick, accurate and beautiful manner.",
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "right",
+      "image": "benefits-page2.jpg",
+      "title": null,
+      "list": null,
+      "bulk": "Whether you’re looking to create a wedding registry, a baby registry or just a celebration gift registry, we want to welcome you the Borsheims family, reward you for registering with us and say thank you for choosing Borsheims!",
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "left",
+      "image": "benefits-page3.jpg",
+      "title": null,
+      "list": null,
+      "bulk": "Online or in store, you have complete control over your Registry. In store, our consultants can guide you while using our Borsheims Gift Registry app that allows you to instantly select anything that catches your eye. The gift registry program online is updated in real time. You can stay connected to your gift list and enjoy the ability to check on who has purchased for you and what items are still remaining. Your guests can buy online at www.borsheims.com, no matter where they are 24/7, as well as in our store.",
+      "paragraphs": null
+    }
+  ]
+}

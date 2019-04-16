@@ -1,0 +1,845 @@
+@import "_variables.less";
+@import "../_functions";
+@media (max-width: @screen-max-width-phone) {
+
+    .modal-open{
+        overflow: hidden;
+  }
+      
+    .route-wrapper {
+        margin-top:0px;
+		&.scrolled-page {
+            .box-shadow(none);
+            home .home-feature.header-mode .mobile-sticky-top{
+                top: -90px;
+                position: fixed;
+                width: 100%;
+                z-index: 1;
+            }
+            home .home-feature registry-carousel-links feature.registry-carousel-links .registry-carousel-wrapper{
+                margin-top: 464px;
+            }
+            home .home-feature registry-search .registry-search-feature .search-registry-title{
+                padding-top: 56px;
+            }
+        }
+        &.scrolled-page-second {
+            
+            home .home-feature registry-carousel-links .registry-dropdown{
+                position: fixed;
+                width: 100%;
+                z-index: 2;
+                top: 185px;
+                
+            }
+            home .home-feature registry-search .registry-search-feature .search-registry-section .search-wrapper .reg-buttons-container{
+                opacity: 0;
+            }
+            home .home-feature registry-carousel-links feature.registry-carousel-links .registry-carousel-wrapper .mobile-only.carousel-text{
+                z-index: 0;
+            }
+            home .home-feature.header-mode .mobile-sticky-top{
+                overflow: hidden;
+                height: 275px;
+            }
+		}
+        .site-header-content {
+            margin-left: 0;
+            justify-content: flex-start;
+        }
+    }
+    home {
+        .home-feature {
+
+            registry-search {
+                .registry-search-feature {
+             background: url("@{clientImagesPath}/mobile_hero_image.jpg");
+            background-size: 100% auto;
+            background-repeat: no-repeat;         
+            margin-top: 0;
+            height: 460px;   
+                    .search-registry-section {
+                        margin: 100px auto 70px 0;
+                        width: 100%;
+                        max-width: 100%;
+                        .search-wrapper {
+                            background: rgba(255, 255, 255, 0.75);
+                            .search-registry-title {
+                                font-size: 28px;
+                            }
+                            .reg-buttons-container {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                margin-bottom: 0;
+                                margin-top: 40px;
+                                a.btn.btn-secondary {
+                                    margin-left: 0;
+                                }
+                            }
+                            .search-input-container {
+                                .search-input {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            registry-carousel-links {
+                .mobile-image-container {
+                    overflow: hidden;
+                    .swiper-wrapper {
+                        overflow-y: hidden;
+                        width: 100%;
+                        .swiped-picture {
+                            transition: transform 0.5s ease-out;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                max-height: 310px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                mobile-pictures-swiper {
+                    position: relative;
+                    display: block;
+                    .swiper-button {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 0.65);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 10px;
+                        &.right {
+                            right: 0;
+                            margin-right: 8px;
+                        }
+                        &.left {
+                            margin-left: 8px;
+                        }
+                        .tap-button {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                feature.registry-carousel-links {
+                    .registry-carousel-wrapper {
+                        .registry-carousel-nav {
+                            display: none;
+                        }
+                        .not-mobile {
+                            display: none;
+                        }
+                        .mobile-only {
+                            display: block;
+                            &.carousel-text {
+                                text-align: center;
+                                padding: 24px;
+                                font-size: 18px;
+                                z-index: 1;
+                                position: relative;
+                                background-color: @color-white; 
+                            }
+                            .mobile-buttons {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .mobile-button {
+                                    margin-top: 16px;
+                                    max-width: 293px;
+                                    width: 100%;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    .benefits {
+                        benefits-item {
+                            .benefits.container {
+                                .benefits-row {
+                                    padding: 0 75px;
+                                    margin-bottom: 40px;
+                                    .benefit-col {
+                                        margin-bottom: 40px;
+                                    }
+                                }
+                            }
+                            .benefit-picture {
+                                max-height: 250px;
+                            }
+                            .tips-text {
+                                text-align: center;
+                                margin-top: 24px;
+                                .tips-text-chunks {
+                                    text-align: left;
+                                    padding: 0 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .registry-dropdown {
+                    display: flex;
+                    justify-content: center;
+                    background-color: @mainButtonBackgroundColor;
+                    height: 70px;
+                    flex-direction: column;
+                    align-items: center;
+                    z-index: 2;
+                    position: relative;
+                    dropdown {
+                        width: 100%;
+                        .custom-dropdown {
+                            width: 100%;
+                            .custom-dropdown-list {
+                                top: 70px;
+                            }
+                            .custom-dropdown-link {
+                                padding: 10px 10px;
+                                font-size: 14px;
+                                &:after {
+                                    content: " Registry";
+                                }
+                            }
+                        }
+                    }
+                    .custom-dropdown-toggle {
+                        color: @mainButtonColor;
+                        border-bottom: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        height: 70px;
+                        padding: 2px 70px 9px;
+                        .selected {
+                            font-size: 24px;
+                            text-align: center;
+                        }
+                        .selected:after {
+                            content: " Registry";
+                        }
+                        .caret {
+                            line-height: 19px;
+                            position: initial;
+                            margin-top: auto;
+                            border-top: none;
+                            border-right: none;
+                            border-left: none;
+                            right: 0;
+                            display: flex;
+                        }
+                        .caret.closed:before {
+                            content: "Discover More Registries ";
+                        }
+                        .caret.closed:after {
+                            margin-left: 5px;
+                            font-family: "FontAwesome";
+                            font-size: 26px;
+                            content: "\f107";
+                        }
+                        .caret.open:before {
+                            content: "Discover More Registries ";
+                        }
+                        .caret.open:after {
+                            margin-left: 5px;
+                            font-family: "FontAwesome";
+                            font-size: 26px;
+                            content: "\f106";
+                        }
+                    }
+                }
+            }
+            &.header-mode {
+				background: transparent;
+            }
+        }
+    }
+    site-header .site-header-content .logo {
+        max-width: initial;
+    }
+    site-header {
+		&.scrolled-page {
+			.box-shadow(none);
+		}
+        .site-header-content {
+            margin-left: 0;
+            justify-content: flex-start;
+        }
+    }
+    site-footer {
+        .bottom {
+            height: 74px;
+            ul {
+                li {
+                    a,
+                    span {
+                        color: @color8  !important;
+                        font-size: 10px;
+                    }
+                    &:first-child {
+                        text-align: left;
+                    }
+                    &:last-child {
+                        text-align: right;
+                        margin-right: 0;
+                    }
+                }
+            }
+            .chat-with-us {
+                display: block;
+                text-align: center;
+                height: 34px;
+                line-height: 34px;
+                border-bottom: 1px solid #f5f5f5;
+                font-size: 12px;
+            }
+        }
+    }
+    sidebar feature.sidebar-feature .sidebar-wrapper .logo-wrapper {
+        background-image: url("@{clientImagesPath}/logo.svg");
+        background-position: center;
+        background-size: auto 50%;
+    }
+    sidebar feature.sidebar-feature .sidebar-wrapper {
+        background-color: @color10;
+        .client-logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 22px;
+            .logo-icon {
+                width: 40px;
+                height: 40px;
+                background-image: url("@{clientImagesPath}/logo.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    checkout .checkout-header .checkout-title,
+    ship-to-me feature.ship-to-me-wrapper .title-wrapper .title,
+    cart .cart-title-wrapper .cart-title,
+    greeting .col-container .greeting-header h1 {
+        border-top: 1px solid @greetingBorderColor;
+        border-bottom: 1px solid @greetingBorderColor;
+        line-height: 40px;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+        padding: 0;
+        color: @fontColor;
+    }
+    checkout {
+        .checkout-header {
+            padding: 10px 0;
+            border-bottom: none;
+            .checkout-title {
+                width: auto;
+                margin-left: -11px;
+                margin-right: -11px;
+            }
+        }
+        .cc-cvv-field {
+            width: 28%;
+        }
+        .checkout-summary {
+            padding-top: 0;
+        }
+        .checkout-section {
+            .tab-container {
+                margin-top: 23px;
+                &.contain-one-tab {
+                    margin-top: 0;
+                    padding-left: 10px;
+                    .credit-card-field {
+                        &.expiration-month,
+                        &.expiration-year {
+                            width: 48%;
+                        }
+                    }
+                }
+            }
+            .checkout-summary-container {
+                padding-left: 10px;
+                padding-right: 10px;
+                .checkout-summary {
+                    border-bottom: none;
+                }
+            }
+            .checkout-summary-block {
+                span {
+                    &:first-child,
+                    &:last-child {
+                        font-size: 18px;
+                        color: @color1;
+                    }
+                }
+                &.checkout-grand-total {
+                    border-top: 2px solid @cartHeaderBackgroundAndBorder;
+                }
+            }
+            .secure-checkout-wrapper {
+                .merchant-details {
+                    font-size: 10px;
+                    color: @color2;
+                    strong {
+                        font-weight: normal;
+                    }
+                }
+                .merchant-details-images {
+                    img {
+                        &:first-child {
+                            width: 80px;
+                            margin-right: 5px;
+                        }
+                        &:last-child {
+                            width: 65px;
+                        }
+                    }
+                }
+            }
+            .payment-container {
+                .payment-buttons-wrapper {
+                    margin-bottom: 9px;
+                    .pay-now-btn {
+                        height: 44px;
+                        border-radius: 1px;
+                        font-size: 18px;
+                        color: @color-white;
+                    }
+                }
+            }
+            input,
+            select {
+                font-size: 14px;
+            }
+        }
+        .nav-tabs {
+            .nav-link {
+                &#payPalTab-link {
+                    padding-bottom: 14px;
+                }
+                img {
+                    max-height: 30px;
+                    margin-left: 26px;
+                    margin-top: 9px;
+                    margin-right: 26px;
+                    &.paypal-tab-icn {
+                        max-height: 41px;
+                        padding: 0;
+                        margin: 26px;
+                        margin-bottom: 0;
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    }
+    thank-you {
+        .thank-you-feature {
+            .thank-you-page {
+                .thank-you-content {
+                    text-align: left;
+                }
+            }
+        }
+    }
+    registry-catalog {
+        feature.registry-catalog {
+            .registry-item-wrapper {
+                box-shadow: none;
+                .item-price {
+                    font-size: 12px;
+                }
+                .item-title {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            .registry-options-wrapper {
+                .registry-filters-list {
+                    .registry-filters-list-item {
+                        font-size: 12px;
+                    }
+                }
+                .registry-filters-list-label {
+                    justify-content: start;
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+    ship-to-me {
+        feature.ship-to-me-wrapper {
+            .content-wrapper {
+                padding: 0 10px 20px;
+            }
+            .title-wrapper {
+                padding: 0;
+                margin-top: 0;
+            }
+        }
+    }
+    navigation-links {
+        .nav-link {
+            .nav-link-cart-amount {
+                background: @iconColor;
+            }
+        }
+    }
+    cart {
+        .cart-title-wrapper {
+            padding: 0;
+        }
+        .cart-table {
+            border-top: none;
+            .grid-row {
+                .col-content {
+                    font-size: 15px;
+                    &.col-content-image {
+                        height: 60px;
+                        width: 60px;
+                        margin: auto;
+                        text-align: center;
+                        border: 1px solid @cartHeaderBackgroundAndBorder;
+                        border-radius: 3px;
+                        .product-image {
+                            max-width: ~"calc(100% - 6px)";
+                            max-height: ~"calc(100% - 6px)";
+                        }
+                    }
+                    &.col-content-item-remove {
+                        .remove-icon {
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        .buttons-wrapper {
+            display: flex;
+            .button-wrapper {
+                margin-left: 0;
+                .btn {
+                    font-size: 18px;
+                    height: 44px;
+                }
+            }
+        }
+        .quantity-button {
+            width: 22px;
+            height: 22px;
+        }
+    }
+    registry-benefits {
+        display: none;
+    }
+    registry-item {
+        margin-right: 0;
+        min-height: 290px;
+        .registry-item-feature {
+            .registry-item-wrapper {
+                .registry-item-box-wrapper {
+                    width: auto;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    greeting {
+        .col-container {
+            form {
+                textarea {
+                    background: white;
+                    height: 100px;
+                }
+            }
+        }
+    }
+    .top-brands {
+        margin-bottom: 0;
+        h2 {
+            font-size: 24px;
+        }
+        .top-brands-images {
+            flex-direction: column;
+            img {
+                margin-bottom: 43px;
+                &:last-child {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .pseudo-footer {
+        display: none;
+    }
+    .exlusive-brands {
+        h2 {
+            font-size: 24px;
+            padding: 0 5px;
+        }
+        .brands {
+            flex-direction: column;
+            .brand {
+                margin-bottom: 16px;
+                text-align: center;
+            }
+        }
+    }
+    search-results {
+        .search-registry-section.header-mode .search-registry-container {
+            margin-top: 0;
+        }
+        .search-results-section {
+            .search-results-counter {
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: normal;
+                background-color: @color8;
+            }
+        }
+        registry-search {
+            .search-wrapper {
+                padding: 15px 20px;
+            }
+            .search-registry-section .search-registry-title {
+                text-align: center;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .registry-search-feature {
+                height: 114px;
+                background-image: url("@{clientImagesPath}/mobile/search_header.jpg");
+                background-position: center;
+            }
+        }
+    }
+    categories {
+        top-picks-carousel {
+            margin: 0px;
+        }
+        search-bar {
+            width: 80%;
+        }
+    }
+    chip-in {
+        .chip-in-feature {
+            form {
+                .form-group.amount-group {
+                    margin: 0 auto;
+                    input {
+                        text-align: center;
+                        color: @color1;
+                        opacity: 0.63;
+                        border: 1px solid @color12;
+                        font-weight: bold;
+                        width: 70px;
+                        margin-bottom: 0;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .registry-item-popup {
+        .chip-in-body {
+            .amount-group-wrapper {
+                font-size: 14px;
+                &.already-chipped-in {
+                    width: 280px;
+                    justify-content: left;
+                }
+                .label {
+                    width: 100%;
+                    text-align: left;
+                    font-weight: 500;
+                }
+                .value {
+                    font-weight: bold;
+                    padding-right: 5px;
+                }
+                h6 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .item-details-wrapper {
+            .item-wanted-received {
+                padding-left: 20%;
+                padding-right: 20%;
+                font-weight: normal;
+                border: 0;
+            }
+            .item-title {
+                font-size: 16px;
+            }
+        }
+        .item-select-actions {
+            .btn-link {
+                font-size: 18px;
+                flex-basis: auto;
+            }
+            quantity-picker {
+                margin-bottom: 26px;
+            }
+        }
+        .quantity-picker-title {
+            margin-bottom: 0;
+        }
+        mark-as-purchased .mark-as-purchased-feature button.btn-primary {
+            height: 44px;
+            line-height: 44px;
+            padding: 0;
+        }
+        mark-as-purchased .mark-as-purchased-feature .form-group {
+            margin-top: 20px;
+            margin-bottom: 23px;
+        }
+        mark-as-purchased .mark-as-purchased-feature form .form-group textarea {
+            height: 70px;
+        }
+        gift-it {
+            quantity-picker {
+                margin-bottom: 20px;
+                .selected-amount-wrapper {
+                    &:before {
+                        content: "";
+                    }
+                    .selected-amount {
+                        font-size: 24px;
+                    }
+                }
+                h6 {
+                    font-size: 18px;
+                    margin-right: 0;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+        .item-select-actions {
+            .btn-primary, .btn-secondary {
+                font-size: 18px;
+            }
+        }
+    }
+    modal-container {
+        .modal-header {
+            .close {
+                span {
+                    display: none;
+                }
+            }
+        }
+        .modal-dialog {
+            &.item-added-approve {
+                .modal-content {
+                    border-radius: 3px;
+                    border: 0;
+                    .modal-body {
+                        .approve-message {
+                            &:before {
+                                height: 19px;
+                                width: 19px;
+                                background: url("@{clientImagesPath}/icons/checkmark.svg");
+                                background-size: 100% 100%;
+                                content: " ";
+                            }
+                        }
+                        .btn-primary {
+                            height: 44px;
+                            font-size: 18px;
+                            line-height: 44px;
+                        }
+                    }
+                }
+            }
+        }
+        modal-dialog,
+        .modal-content {
+            height: auto;
+            border-radius: 3px;
+            .modal-body .popup-button .btn {
+                height: 44px;
+                font-size: 18px;
+            }
+        }
+    }
+    .static-page-feature .static-page-header .static-page-header-title {
+        font-size: 20px;
+    }
+    terms feature .pageContent {
+        font-size: 14px;
+    }
+    .navigation-links-feature {
+        .type-cart {
+            list-style: none;
+            width: 29px;
+            height: 25px;
+            position: absolute;
+            right: 9px;
+            .nav-link-img {
+                position: relative;
+                max-width: 100%;
+            }
+            .nav-link-cart-amount {
+                position: absolute;
+                background-color: @iconColor;
+                height: 14px;
+                width: 14px;
+                border-radius: 50px;
+                color: @color-white;
+                font-size: 10px;
+                top: -2px;
+                right: -1px;
+                text-align: center;
+                font-size: 10px;
+            }
+        }
+    }
+
+    registry-header{
+        .registry-header{
+            display: inline-block;
+            background-size: 100% 77px;
+            background-repeat: no-repeat;
+            height: 77px;
+            min-height: 77px;
+            .header-event-date{
+                font-size: 10px;
+                margin: 8px auto 0;
+            }
+            h3.header-registrant-name {
+                margin: 6px auto 0;
+                padding-bottom: 0;
+            }
+        } 
+        feature {
+            height: 77px;
+            margin-top: 50px;
+        }
+    }
+    .route-wrapper{
+        &:not(.for-homepage) {
+            .page-content {
+                min-height: ~'calc(100% - 70px)';
+            }
+        }
+    }
+}

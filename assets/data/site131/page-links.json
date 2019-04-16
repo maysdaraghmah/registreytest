@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Why register with Mosaic?",
+    "url": "pages/whyUs",
+    "image": "assets/images/131/box-left.png",
+    "exploreNowButton": false
+  },
+  {
+    "name": "FAQ",
+    "url": "pages/FAQ",
+    "image": "assets/images/131/box-right.png",
+    "exploreNowButton": false
+  }
+]

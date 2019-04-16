@@ -1,0 +1,192 @@
+@import '_variables.less';
+@import '../../_functions';
+
+@media (max-width: @screen-max-width-phone) {
+
+	event-registry {
+		.mobile-event-section, .step-two-content,.step-one-section,.form-input{
+			background-color: @colorWhite;
+		}
+
+		.event-form-title {
+			margin-top: 19px;
+			font-weight: 600;
+		}
+
+		.event-registry-form {
+			overflow-x: hidden;
+			width: 100vw;
+		}
+
+		.form-group {
+			margin-bottom: 14px;
+		}
+
+		.form-label {
+			margin-top: 24px;
+			margin-bottom: 20px;
+			font-size: 20px;
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.form-input {
+			height: 34px;
+			line-height: 20px;
+		}
+
+		.custom-dropdown-toggle {
+			height: initial;
+			line-height: initial;
+
+			.caret {
+				display: none;
+			}
+		}
+
+		.event-type-dropdown {
+			position: relative;
+
+			&:after {
+				display: block;
+				position: absolute;
+				right: 3px;
+				bottom: 0;
+				content: '';
+				width: 22px;
+				height: 22px;
+				background-image: url('/assets/images/155/icons/event_type_icon.svg');
+				background-repeat: no-repeat;
+				background-size: 22px;
+			}
+		}
+
+		.date-picker-container {
+			&:after {
+				position: absolute;
+				right: 3px;
+				bottom: 1px;
+				width: 20px;
+				height: 20px;
+				background-image: url('/assets/images/155/icons/event_date_icon.svg');
+				background-repeat: no-repeat;
+				background-size: 20px;
+			}
+		}
+
+		.number-of-guests-dropdown {
+			position: relative;
+
+			&:after {
+				display: block;
+				position: absolute;
+				right: 3px;
+				bottom: 4px;
+				content: '';
+				width: 28px;
+				height: 17px;
+				background-image: url('/assets/images/155/icons/number_of_guests_icon.svg');
+				background-repeat: no-repeat;
+				background-size: 28px;
+			}
+		}
+
+		.mobile-combined-section {
+			.event-form-title {
+				margin-bottom: 20px;
+			}
+
+			.co-registrant-with-registrant {
+				margin-top: 30px;
+			}
+
+			.form-group {
+				margin-bottom: 24px;
+			}
+
+			.form-label {
+				display: none;
+			}
+		}
+	}
+
+	site-footer {
+		display: none;
+	}
+	.custom-dropdown {
+		.custom-dropdown-list{
+			top: 28px;
+		}
+	}
+
+	event-picker-slide{
+		height: 0%;
+		width: 100%;
+		position: fixed;
+		z-index: 999;
+		bottom: 0;
+		left: 0;
+		overflow-y: hidden;
+		transition: 0.5s ease-in-out;
+		margin: 0;
+		padding: 0;
+		background-color: @slideBackgroundColor;
+		&.overlay{
+			height: 100%
+		}
+		.slide-wrapper{
+			.close-icon{
+				text-align: right;
+				margin: 16px 18px 0;
+				font-size: 23px;
+			}
+			.slide-title{
+				text-align: center;
+				display: block;
+				padding: 11px 0 31px;
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.slide-list{
+				list-style: none;
+				padding-left: 0;
+				.slide-option{
+					border-bottom: 1px solid #ddd;
+					width: 90%;
+					margin: auto;
+					padding: 10px 0;
+					display: flex;
+					.slide-option-icon{
+						background-repeat: no-repeat;
+						margin: 0 28px 0 31px;
+						width: 32px;
+						height: 25px;
+						&.baby{
+							background-image: url("@{clientImagesPath}/icons/icon_menu_baby_shower.svg");
+						}
+						&.wedding{
+							background-image: url("@{clientImagesPath}/icons/icon_menu_weddinglist.svg");
+						}
+						&.special-occasion{
+							background-image: url("@{clientImagesPath}/icons/icon_menu_others.svg");
+						}
+						&.housewarming{
+							background-image: url("@{clientImagesPath}/icons/icon_menu_housewarminglist.svg");
+						}
+					}
+					.slide-option-text{
+						text-align: left;
+						line-height: 19px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+  }
+
+	site-header-registered{
+		display:none;
+	}
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Why Register With Us",
+    "url": "pages/whyUs",
+    "image": "assets/images/39/box_why.jpg",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Registry Benefits",
+    "image": "assets/images/39/box_benefit.jpg",
+    "exploreNowButton": false,
+    "url": "pages/registryBenefits"
+  },
+  {
+    "name": "Frequently Asked Questions",
+    "url": "pages/FAQ",
+    "image": "assets/images/39/box_faq.jpg",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Timeline",
+    "url": "pages/timeline",
+    "image": "assets/images/39/box_timeline.jpg",
+    "exploreNowButton": false
+  },
+  {
+    "name": "Set Up An Appointment",
+    "image": "assets/images/39/box_appointment.jpg",
+    "exploreNowButton": false,
+    "url": "pages/appointment"
+  },
+  {
+    "name": "Registry Checklist",
+    "image": "assets/images/39/box_checklist.jpg",
+    "exploreNowButton": false,
+    "url": "pages/checklist"
+  }
+]

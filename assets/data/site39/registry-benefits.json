@@ -1,0 +1,27 @@
+{
+  "intro": "Whether you’re looking to create a wedding registry or just a general gift registry, we want to welcome you to the Kallah Registry family, reward you for registering with us and say thank you!",
+
+  "sections": [
+    {
+      "imagePosition": "left",
+      "image": "benefits-page1.png",
+      "title": "A Simple And Easy Registry",
+      "list": null,
+      "bulk": "With Kallah Registry, you have complete control over your Registry. You can stay connected to your gift list and enjoy the ability to check on who has purchased what, in order to avoid receiving the same gift twice! Your guests can buy online at kallahregistry.com, no matter where they are, 24/7.",
+      "paragraphs": null
+    },
+    {
+      "imagePosition": "right",
+      "image": "benefits-page2.png",
+      "title": "The Kallah Registry Thank You Program",
+      "list": null,
+      "bulk": null,
+      "paragraphs": [
+        "Most Registries give you the opportunity to complete your registry for a discounted price. We want to take your rewards a few steps further. Following your event, we will send you a Registry Rewards & Thank You Package* containing the following items:",
+        "A registry completion discount shopping pass- we’ll send you a shopping pass for 20% off everything left in your registry for up to 3 months after your wedding day.",
+        "Spread the good word-- We hope Kallah Registry exceeds your expectations and that you will share your experience with friends and family. As a thank you, we will send you a $25 gift card for every referral you make that enrolls with an active registry in the Kallah Registry program!",
+        "*Discount pass only applies to items that are in your registry at the time of your wedding."
+      ]
+    }
+  ]
+}
